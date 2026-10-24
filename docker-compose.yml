@@ -10,12 +10,17 @@ services:
     restart: unless-stopped
     stop_grace_period: 120s
     ports:
-      - "25565:25565"       # Java Edition
-      - "24454:24454/udp"   # Simple Voice Chat
-      - "8100:8100"         # BlueMap web map (dev direct; prod via Traefik)
-      - "19132:19132/udp"   # Geyser Bedrock (RakNet gameplay)
-      - "19132:19132/tcp"   # Geyser NetherNet signaling (HTTPS; dev = self-signed prompt)
-      - "19133:19133/udp"   # Geyser NetherNet gameplay (WebRTC)
+      # 25565 is Java Edition. 24454 UDP is Simple Voice Chat.
+      # 8100 is the BlueMap web map in dev (prod serves it through Traefik).
+      # 19132 UDP is Geyser Bedrock RakNet gameplay.
+      # 19132 TCP is Geyser NetherNet signaling.
+      # 19133 UDP is Geyser NetherNet gameplay over WebRTC.
+      - "25565:25565"
+      - "24454:24454/udp"
+      - "8100:8100"
+      - "19132:19132/udp"
+      - "19132:19132/tcp"
+      - "19133:19133/udp"
     volumes:
       - ./data:/data
       - ./config:/server/config

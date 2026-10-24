@@ -233,7 +233,7 @@ advanced:
   add-team-suggestions: true
 
   # A list of remote resource pack urls to send to the Bedrock client for downloading.
-  # The Bedrock client is very picky about how these are delivered - please see our wiki page for further info: https://geysermc.org/wiki/geyser/packs/
+  # The Bedrock client is very picky about how these are delivered. Please see our wiki page for further info at https://geysermc.org/wiki/geyser/packs/
   resource-pack-urls: []
 
   # Floodgate uses encryption to ensure use from authorized sources.
@@ -310,7 +310,7 @@ advanced:
     # This option disables the auth step Geyser performs for connecting Bedrock players.
     # It can be used to allow connections from ProxyPass and WaterdogPE. In these cases, make sure that users
     # cannot directly connect to this Geyser instance. See https://www.spigotmc.org/wiki/firewall-guide/ for
-    # assistance - and use UDP instead of TCP.
+    # assistance and use UDP instead of TCP.
     # Disabling Bedrock authentication for other use-cases is NOT SUPPORTED, as it allows anyone to spoof usernames, and is therefore a security risk.
     # All Floodgate functionality (including skin uploading and account linking) will also not work when this option is disabled.
     validate-bedrock-login: true

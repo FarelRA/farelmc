@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Fetch 61 pinned mod jars (baked into image)
+      - name: Fetch 61 pinned mod jars for the image
         run: ./scripts/download-mods.sh
 
       - uses: docker/setup-qemu-action@v3
