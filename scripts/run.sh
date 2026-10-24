@@ -4,7 +4,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 set -a; source scripts/fabric.env; set +a
 if [[ ! -f fabric-server-launch.jar ]]; then
-  echo "missing fabric-server-launch.jar — run scripts/install.sh first" >&2
+  echo "fabric-server-launch.jar is missing. Run scripts/install.sh first" >&2
   exit 1
 fi
 HEAP="${HEAP_GB:-4}G"

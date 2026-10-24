@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-# FarelMC entrypoint — seed pinned jars, link persistent data, run the server.
+# FarelMC entrypoint seeds pinned jars, links persistent data, then runs the server.
 # Runs as container root (unprivileged host user under rootless podman).
 set -eu
 
@@ -13,7 +13,7 @@ fi
 
 # Runtime state shipped alongside the image (nodus data/ layout):
 #   /server/nethernet-data -> Geyser NetherNet identity.pem (persistent volume)
-# The jars expect them under their own config dirs — symlink once per boot.
+# Each jar expects its state under its own config dir, so link it once per boot.
 for spec in "nethernet-data:config/Geyser-Fabric/nethernet"; do
   sdir="/server/${spec%%:*}"; dlink="/server/${spec##*:}"
   if [ -e "$sdir" ]; then
@@ -37,7 +37,7 @@ done
 if [ -n "${RCON_PASSWORD:-}" ]; then
   sed -i "s/^rcon\.password=.*/rcon.password=${RCON_PASSWORD}/" /server/server.properties
 else
-  echo "WARN: RCON_PASSWORD unset — RCON stays disabled in server.properties" >&2
+  echo "WARN: RCON_PASSWORD is unset so RCON stays disabled in server.properties" >&2
   sed -i "s/^enable-rcon=true.*/enable-rcon=false/" /server/server.properties
 fi
 if [ -n "${MGMT_SECRET:-}" ]; then

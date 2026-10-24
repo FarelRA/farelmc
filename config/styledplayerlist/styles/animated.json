@@ -1,90 +1,47 @@
 {
   "style_name": "FarelMC animated",
-  "update_tick_time": 2,
+  "update_tick_time": 20,
   "list_header": {
-    "change_rate": 1,
+    "change_rate": 40,
     "values": [
       [
         "",
-        "<green><bold>  FarelMC  </bold></green><gray>friends survival",
-        "",
-        "<color:#555555><strikethrough>        </strikethrough>[ </color><color:#FF5555>%server:online%<color:#6666676>/</color>%server:max_players%</color><color:#555555> ]<strikethrough>        </strikethrough></color>",
+        "<green><bold>  FarelMC  </bold></green><gray>cozy survival hangout",
         ""
       ],
       [
         "",
-        "<green><bold>  FarelMC  </bold></green><gray>friends survival",
-        "",
-        "<color:#555555><strikethrough>        </strikethrough>[ </color><color:#FF5555>%server:online%<color:#6666676>/</color>%server:max_players%</color><color:#555555> ]<strikethrough>        </strikethrough></color>",
-        ""
-      ],
-      [
-        "",
-        "<green><bold>  FarelMC  </bold></green><gray>friends survival",
-        "",
-        "<color:#555555><strikethrough>        </strikethrough>[ </color><color:#FF5555>%server:online%<color:#6666676>/</color>%server:max_players%</color><color:#555555> ]<strikethrough>        </strikethrough></color>",
-        ""
-      ],
-      [
-        "",
-        "<green><bold>  FarelMC  </bold></green><gray>friends survival",
-        "",
-        "<color:#555555><strikethrough>        </strikethrough>[ </color><color:#FF5555>%server:online%<color:#6666676>/</color>%server:max_players%</color><color:#555555> ]<strikethrough>        </strikethrough></color>",
-        ""
-      ],
-      [
-        "",
-        "<green><bold>  FarelMC  </bold></green><gray>friends survival",
-        "",
-        "<color:#555555><strikethrough>        </strikethrough>[ </color><color:#FF5555>%server:online%<color:#6666676>/</color>%server:max_players%</color><color:#555555> ]<strikethrough>        </strikethrough></color>",
-        ""
-      ],
-      [
-        "",
-        "<green><bold>  FarelMC  </bold></green><gray>friends survival",
-        "",
-        "<color:#555555><strikethrough>        </strikethrough>[ </color><color:#FF5555>%server:online%<color:#6666676>/</color>%server:max_players%</color><color:#555555> ]<strikethrough>        </strikethrough></color>",
-        ""
-      ],
-      [
-        "",
-        "<green><bold>  FarelMC  </bold></green><gray>friends survival",
-        "",
-        "<color:#555555><strikethrough>        </strikethrough>[ </color><color:#FF5555>%server:online%<color:#6666676>/</color>%server:max_players%</color><color:#555555> ]<strikethrough>        </strikethrough></color>",
-        ""
-      ],
-      [
-        "",
-        "<green><bold>  FarelMC  </bold></green><gray>friends survival",
-        "",
-        "<color:#555555><strikethrough>        </strikethrough>[ </color><color:#FF5555>%server:online%<color:#6666676>/</color>%server:max_players%</color><color:#555555> ]<strikethrough>        </strikethrough></color>",
-        ""
-      ],
-      [
-        "",
-        "<green><bold>  FarelMC  </bold></green><gray>friends survival",
-        "",
-        "<color:#555555><strikethrough>        </strikethrough>[ </color><color:#FF5555>%server:online%<color:#6666676>/</color>%server:max_players%</color><color:#555555> ]<strikethrough>        </strikethrough></color>",
+        "<green><bold>  FarelMC  </bold></green><gray>run by Farel for friends",
         ""
       ]
     ]
   },
   "list_footer": {
-    "change_rate": 120,
+    "change_rate": 200,
     "values": [
       [
         "",
-        "<gray>Welcome to <green>FarelMC<gray> \u2014 type <green>/rules <gray>to get started!",
+        "<gray>Welcome! Type <green>/rules <gray>to see the house rules",
         ""
       ],
       [
         "",
-        "<gray>Java & Bedrock: <green>mc.farel.is-a.dev<gray> \u2014 same world, same friends",
+        "<gray>Stuck somewhere? Try <green>/spawn <gray>or <green>/back",
         ""
       ],
       [
         "",
-        "<gray>Need a hand? Try <green>/help <gray>or ask Farel anytime!",
+        "<gray>Visiting a friend? Use <green>/tpa <gray>to ask first",
+        ""
+      ],
+      [
+        "",
+        "<gray>Java and Bedrock play together here: <green>mc.farel.is-a.dev",
+        ""
+      ],
+      [
+        "",
+        "<gray>TPS <green>%server:tps_colored% <gray>with <green><online_players> <gray>online",
         ""
       ]
     ]

@@ -1,4 +1,4 @@
-# runtime & generated — never commit
+# Runtime files and generated files live here. They stay out of git.
 libraries/
 versions/
 .fabric/

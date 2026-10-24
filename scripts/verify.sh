@@ -15,7 +15,7 @@ if [[ $READY -eq 1 ]]; then
   echo "READY: $(grep 'Done (' "$LOG" | tail -1)"
   kill $PID  # SIGTERM triggers Fabric graceful shutdown
 else
-  echo "FAILED — tail:"; tail -30 "$LOG"
+  echo "FAILED. Last log lines follow:"; tail -30 "$LOG"
   kill $PID 2>/dev/null
   exit 1
 fi

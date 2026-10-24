@@ -1,4 +1,4 @@
-# C2ME — parallel chunk generation/IO/loading
+# C2ME makes chunk generation, IO and loading run in parallel
 version = 3
 # ================================================================
 # (Default: 

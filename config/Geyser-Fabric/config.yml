@@ -61,7 +61,7 @@ bedrock:
 
     # Settings for built-in signaling. Only used in the "builtin" and "hybrid" modes.
     builtin:
-      # Plain HTTP — Traefik terminates signaling TLS (see nodus-infra) and
+      # Signaling stays plain HTTP here. Traefik terminates signaling TLS (see nodus-infra) and
       # reverse-proxies here. Never set a cert here; the exporter is gone.
       https:
         # Path to a TLS certificate. This can be a PEM chain (put its key in "private-key"),
@@ -119,7 +119,7 @@ motd:
 # Gameplay options that affect Bedrock players
 gameplay:
   # The server name that will be sent to Minecraft: Bedrock Edition clients. This is visible in both the pause menu and the settings menu.
-  server-name: FarelMC — friends survival
+  server-name: FarelMC friends survival
 
   # Allow a fake cooldown indicator to be sent. Bedrock players otherwise do not see a cooldown as they still use 1.8 combat.
   # Please note: with the integrated pack disabled, some users may see a black box during the cooldown sequence, like below:
@@ -294,7 +294,7 @@ advanced:
     # its per-address connection limit to them for all listed proxies. This is separate from HAPROXY protocol.
     # IP addresses, subnets, and links to plain text files are supported.
     # Traefik terminates signaling TLS (nodus-infra) and reverse-proxies plain
-    # HTTP here — the router subnet must stay trusted or every Bedrock player
+    # HTTP here. The router subnet must stay trusted or every Bedrock player
     # looks like one address (connection-limit + wrong IPs).
     signaling-trusted-proxies:
       - 10.89.0.0/24

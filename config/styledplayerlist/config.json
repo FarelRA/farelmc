@@ -7,6 +7,17 @@
     "unknown": "<red>This style doesn't exist!</red>",
     "no_permission": "<red>You don't have required permissions!</red>"
   },
+  "header": [
+    "",
+    "<green><bold>  FarelMC  </bold><gray>cozy friends survival",
+    "<gray><online_players> pals online now, come say hi!"
+  ],
+  "footer": [
+    "",
+    "<gray>Java and Bedrock: <green>mc.farel.is-a.dev",
+    "<gray>TPS <green>%server:tps_colored%<gray>  |  your ping <green>%player:ping%ms<gray>  |  playtime <green>%player:playtime%",
+    "<gray>Type <green>/rules <gray>for the house rules, <green>/help <gray>for commands"
+  ],
   "player": {
     "modify_name": false,
     "modify_right_text": false,
@@ -20,15 +31,5 @@
     "update_tick_time": -1,
     "styles": []
   },
-  "header": [
-    "",
-    "<green><bold>  FarelMC  </bold><gray>— friends survival",
-    ""
-  ],
-  "footer": [
-    "",
-    "<gray>Java <green>mc.farel.is-a.dev<gray> · Bedrock same address :19132",
-    "<gray>Type <green>/rules <gray>· <green>/help <gray>· have fun!"
-  ],
   "client_show_in_singleplayer": true
 }

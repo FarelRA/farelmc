@@ -1,4 +1,4 @@
-# FarelMC dev compose — bare-metal local run (prod lives in nodus-infra,
+# FarelMC dev compose runs the stack on bare metal for local testing (prod lives in nodus-infra,
 # which pulls ghcr.io/farelra/farelmc and fronts BlueMap + ACME via Traefik).
 # Usage: cp .env.example .env && ./scripts/download-mods.sh && docker compose up --build
 services:

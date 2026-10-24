@@ -1,8 +1,9 @@
-Welcome to FarelMC — Farel's cozy survival hangout for friends! A few simple things so everyone has a good time:
+Welcome to FarelMC! This is Farel's cozy survival hangout for friends. A few simple things so everyone has a good time:
 
-• Be kind — no griefing, stealing, or messing with other people's builds.
-• No cheats or hacked clients — play fair, that's the fun of it.
-• Keep chat friendly — no spam, no harassment.
-• When in doubt, just ask! Use /tpa to visit friends instead of wandering into their base uninvited.
+* Be kind. No griefing, stealing, or messing with other people's builds.
+* No cheats or hacked clients. Play fair, that is the fun of it.
+* Keep chat friendly. No spam, no harassment.
+* Respect claims and bases. When in doubt, just ask!
+* Use /tpa to visit friends instead of wandering into their base uninvited.
 
 Need a hand? Try /help for all the commands, or ask Farel. Have fun and happy crafting!

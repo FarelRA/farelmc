@@ -1,12 +1,12 @@
-# FarelMC — Fabric 26.3 SMP, universal join
+# FarelMC brings Fabric 26.3 SMP with universal join
 
 > Ground truth for the FarelMC server. CI builds `ghcr.io/farelra/farelmc`
 > (`:latest` + short-sha, arm64+amd64) on every `main` push; prod runs from
 > nodus-infra, which pulls the image and fronts it with Traefik.
 
 - **Server:** `MC 26.3 + Fabric Loader 0.20.1 + Java 25`, 61 pinned jars
-  (`mods/manifest.json` — Via stack = any Java joins; Geyser + Floodgate =
-  current Bedrock joins, no Java account).
+  (listed in `mods/manifest.json`. The Via stack lets any Java version join.
+  Geyser plus Floodgate lets current Bedrock join with no Java account).
 - **Ports:** Java `:25565/tcp`, Bedrock `:19132/udp+tcp` + `:19133/udp`,
   voice `:24454/udp`, map `:8100`.
 - **Image bakes the jars** (`COPY mods/*.jar /pinned-mods/`); entrypoint seeds
@@ -17,8 +17,8 @@
 | Path | Purpose |
 |---|---|
 | `Dockerfile`, `entrypoint.sh` | Temurin 25 image; seeds jars, links persistent data |
-| `mods/manifest.json` | 61 pinned 26.3 jars; `scripts/download-mods.sh` reproduces them |
-| `config/` | Tuned per-mod defaults (server may add version stamps — harmless) |
+| `mods/manifest.json` | 61 pinned 26.3 jars. `scripts/download-mods.sh` fetches them again |
+| `config/` | Tuned per-mod defaults. The server may add version stamps there and that is harmless |
 | `server.properties`, `eula.txt` | Committed tuning |
 | `scripts/` | `download-mods.sh` `install.sh` `run.sh` `verify.sh` `backup.sh` `pregen.sh` |
 | `docker-compose.yml` | Local dev run (prod lives in nodus-infra) |
