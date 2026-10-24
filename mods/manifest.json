@@ -410,7 +410,7 @@
     "date": "2026-09-22",
     "sha512": "",
     "ok": true,
-    "why": "full kit spawn/rtp/fly/nick/workbench, LuckPerms nodes; pick ONE of ec/teleport-commands"
+    "why": "full kit spawn/rtp/fly/nick/workbench; pick ONE of ec/teleport-commands"
   },
   {
     "slug": "universal-graves",
@@ -476,7 +476,7 @@
     "date": "2026-09-11",
     "sha512": "",
     "ok": true,
-    "why": "nicknames server-side, LuckPerms-aware"
+    "why": "nicknames server-side, permission-aware"
   },
   {
     "slug": "styledplayerlist",
