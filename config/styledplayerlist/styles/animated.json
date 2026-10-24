@@ -21,23 +21,23 @@
     "values": [
       [
         "",
-        "<gray>TPS <green>%server:tps_colored% <dark_gray>|</dark_gray> <gray><green>%server:online% <gray>online <dark_gray>|</dark_gray> <gray>playtime <green>%player:playtime%",
+        "<gray>TPS <green>%server:tps_colored% <dark_gray>|</dark_gray> <gray><green>%server:online% <gray>online <dark_gray>|</dark_gray> <gray>kills <green>%player:statistic mob_kills%",
         "<gray>Welcome! Type <green>/rules <gray>to see the house rules"
       ],
       [
         "",
-        "<gray>TPS <green>%server:tps_colored% <dark_gray>|</dark_gray> <gray><green>%server:online% <gray>online <dark_gray>|</dark_gray> <gray>playtime <green>%player:playtime%",
+        "<gray>TPS <green>%server:tps_colored% <dark_gray>|</dark_gray> <gray><green>%server:online% <gray>online <dark_gray>|</dark_gray> <gray>kills <green>%player:statistic mob_kills%",
         "<gray>Stuck somewhere? Try <green>/spawn <gray>or <green>/back"
       ],
       [
         "",
-        "<gray>TPS <green>%server:tps_colored% <dark_gray>|</dark_gray> <gray><green>%server:online% <gray>online <dark_gray>|</dark_gray> <gray>playtime <green>%player:playtime%",
+        "<gray>TPS <green>%server:tps_colored% <dark_gray>|</dark_gray> <gray><green>%server:online% <gray>online <dark_gray>|</dark_gray> <gray>kills <green>%player:statistic mob_kills%",
         "<gray>Visiting a friend? Use <green>/tpa <gray>to ask first"
       ],
       [
         "",
-        "<gray>TPS <green>%server:tps_colored% <dark_gray>|</dark_gray> <gray><green>%server:online% <gray>online <dark_gray>|</dark_gray> <gray>playtime <green>%player:playtime%",
-        "<gray>Java and Bedrock play together here: <green>mc.farel.is-a.dev"
+        "<gray>TPS <green>%server:tps_colored% <dark_gray>|</dark_gray> <gray><green>%server:online% <gray>online <dark_gray>|</dark_gray> <gray>kills <green>%player:statistic mob_kills%",
+        "<gray>join at <green>mc.farel.is-a.dev"
       ]
     ]
   },
