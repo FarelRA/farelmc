@@ -1,0 +1,28 @@
+# FarelMC dev compose — bare-metal local run (prod lives in nodus-infra,
+# which pulls ghcr.io/farelra/farelmc and fronts BlueMap + ACME via Traefik).
+# Usage: cp .env.example .env && ./scripts/download-mods.sh && docker compose up --build
+services:
+  minecraft:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: farelmc-dev
+    restart: unless-stopped
+    stop_grace_period: 120s
+    ports:
+      - "25565:25565"       # Java Edition
+      - "24454:24454/udp"   # Simple Voice Chat
+      - "8100:8100"         # BlueMap web map (dev direct; prod via Traefik)
+      - "19132:19132/udp"   # Geyser Bedrock (RakNet gameplay)
+      - "19132:19132/tcp"   # Geyser NetherNet signaling (HTTPS; dev = self-signed prompt)
+      - "19133:19133/udp"   # Geyser NetherNet gameplay (WebRTC)
+    volumes:
+      - ./data:/data
+      - ./config:/server/config
+      - ./server.properties:/server/server.properties:ro
+      - ./eula.txt:/server/eula.txt:ro
+    environment:
+      HEAP_GB: "4"
+      TZ: Asia/Jakarta
+    stdin_open: true
+    tty: true

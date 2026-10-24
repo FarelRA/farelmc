@@ -1,0 +1,6 @@
+{
+  "_note": "tuned at runtime via /async commands; defaults kept vanilla-safe",
+  "asyncEntitySpawn": false,
+  "asyncRandomTicks": false,
+  "synchronizedEntities": ["minecraft:tnt", "minecraft:item", "minecraft:experience_orb"]
+}

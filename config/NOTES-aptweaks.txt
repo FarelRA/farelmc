@@ -1,0 +1,2 @@
+# Adaptive Performance Tweaks — server now adapts view/sim distance, spawn and gamerules automatically.
+# /aptweaks adjustments in console; reports in adaptive_performance_tweaks/reports/.

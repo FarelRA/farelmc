@@ -1,0 +1,12 @@
+{
+  "_comment_DistanceScaling": "This setting controls what % range of your simulation distance is considered close and far range",
+  "_comment_AIOptimizationType": "This settings controls how aggressive the optimizations should be",
+  "_comment_TemptDelay": "This setting controls how much delay animals have to being tempted by an item",
+  "_comment_DisableZombieEggStomping": "This setting controls the prevention of zombies wanting to destroy turtle eggs",
+  "_comment_EnableVanillaMobTicking": "This setting controls if distant mobs should tick the same as in a unmodded (vanilla) game. Enabling this reduces the mod\u0027s TPS-boosting effect on your game, but can fix mob ticking issues.",
+  "DistanceScaling": "Medium",
+  "AIOptimizationType": "Dynamic",
+  "TemptDelay": "Medium",
+  "DisableZombieEggStomping": false,
+  "EnableVanillaMobTicking": false
+}

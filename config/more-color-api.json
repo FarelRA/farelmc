@@ -1,0 +1,315 @@
+{
+  "___comment": "MoreColorAPI-Development Version-0.2.16 Config",
+  "config_date": "Sat, 24 Oct 2026 13:22:26 +0700",
+  "main": {
+    "moreColorsCommandPermissions": 0,
+    "moreColorsAddCommandPermissions": 3,
+    "moreColorsDefaultsCommandPermissions": 4,
+    "moreColorsReloadCommandPermissions": 3,
+    "moreColorsSaveCommandPermissions": 3,
+    "moreColorsTestCommandPermissions": 0,
+    "debugMode": false
+  },
+  "more_colors": [
+    {
+      "name": "aztec_gold",
+      "hexCode": "#C39953",
+      "aliases": [],
+      "color": {
+        "value": 12818771
+      }
+    },
+    {
+      "name": "bluetiful",
+      "hexCode": "#3C69E7",
+      "aliases": [
+        "blue2"
+      ],
+      "color": {
+        "value": 3959271
+      }
+    },
+    {
+      "name": "brown",
+      "hexCode": "#632C04",
+      "aliases": [],
+      "color": {
+        "value": 6499332
+      }
+    },
+    {
+      "name": "burnt_orange",
+      "hexCode": "#FF7034",
+      "aliases": [
+        "orange2"
+      ],
+      "color": {
+        "value": 16740404
+      }
+    },
+    {
+      "name": "canary",
+      "hexCode": "#FFFF99",
+      "aliases": [
+        "yellow2"
+      ],
+      "color": {
+        "value": 16777113
+      }
+    },
+    {
+      "name": "cool_mint",
+      "hexCode": "#DDEBEC",
+      "aliases": [],
+      "color": {
+        "value": 14543852
+      }
+    },
+    {
+      "name": "copper",
+      "hexCode": "#DA8A67",
+      "aliases": [],
+      "color": {
+        "value": 14322279
+      }
+    },
+    {
+      "name": "cotton_candy",
+      "hexCode": "#FFB7D5",
+      "aliases": [],
+      "color": {
+        "value": 16758741
+      }
+    },
+    {
+      "name": "cyan",
+      "hexCode": "#2D7C9D",
+      "aliases": [],
+      "color": {
+        "value": 2981021
+      }
+    },
+    {
+      "name": "dark_brown",
+      "hexCode": "#421F05",
+      "aliases": [],
+      "color": {
+        "value": 4333317
+      }
+    },
+    {
+      "name": "dark_pink",
+      "hexCode": "#DE8BB4",
+      "aliases": [],
+      "color": {
+        "value": 14584756
+      }
+    },
+    {
+      "name": "lavender",
+      "hexCode": "#BF8FCC",
+      "aliases": [],
+      "color": {
+        "value": 12554188
+      }
+    },
+    {
+      "name": "light_blue",
+      "hexCode": "#82ACE7",
+      "aliases": [],
+      "color": {
+        "value": 8563943
+      }
+    },
+    {
+      "name": "light_brown",
+      "hexCode": "#7A4621",
+      "aliases": [],
+      "color": {
+        "value": 8013345
+      }
+    },
+    {
+      "name": "light_gray",
+      "hexCode": "#BABAC1",
+      "aliases": [
+        "light_grey"
+      ],
+      "color": {
+        "value": 12237505
+      }
+    },
+    {
+      "name": "light_pink",
+      "hexCode": "#F7B4D6",
+      "aliases": [],
+      "color": {
+        "value": 16233686
+      }
+    },
+    {
+      "name": "lime",
+      "hexCode": "#76C610",
+      "aliases": [],
+      "color": {
+        "value": 7783952
+      }
+    },
+    {
+      "name": "magenta",
+      "hexCode": "#CB69C5",
+      "aliases": [],
+      "color": {
+        "value": 13330885
+      }
+    },
+    {
+      "name": "maroon",
+      "hexCode": "#C32148",
+      "aliases": [],
+      "color": {
+        "value": 12788040
+      }
+    },
+    {
+      "name": "orange",
+      "hexCode": "#E69E34",
+      "aliases": [],
+      "color": {
+        "value": 15113780
+      }
+    },
+    {
+      "name": "pink",
+      "hexCode": "#EDA7CB",
+      "aliases": [],
+      "color": {
+        "value": 15574987
+      }
+    },
+    {
+      "name": "pacific_blue",
+      "hexCode": "#009DC4",
+      "aliases": [],
+      "color": {
+        "value": 40388
+      }
+    },
+    {
+      "name": "peach",
+      "hexCode": "#FFCBA4",
+      "aliases": [],
+      "color": {
+        "value": 16763812
+      }
+    },
+    {
+      "name": "plum",
+      "hexCode": "#843179",
+      "aliases": [],
+      "color": {
+        "value": 8663417
+      }
+    },
+    {
+      "name": "powder_blue",
+      "hexCode": "#C0D5F0",
+      "aliases": [],
+      "color": {
+        "value": 12637680
+      }
+    },
+    {
+      "name": "purple",
+      "hexCode": "#A453CE",
+      "aliases": [],
+      "color": {
+        "value": 10769358
+      }
+    },
+    {
+      "name": "royal_purple",
+      "hexCode": "#6B3FA0",
+      "aliases": [],
+      "color": {
+        "value": 7028640
+      }
+    },
+    {
+      "name": "salmon",
+      "hexCode": "#FF91A4",
+      "aliases": [
+        "pink_salmon"
+      ],
+      "color": {
+        "value": 16748964
+      }
+    },
+    {
+      "name": "scarlet",
+      "hexCode": "#FD0E35",
+      "aliases": [],
+      "color": {
+        "value": 16584245
+      }
+    },
+    {
+      "name": "sea_green",
+      "hexCode": "#93DFB8",
+      "aliases": [],
+      "color": {
+        "value": 9691064
+      }
+    },
+    {
+      "name": "sepia",
+      "hexCode": "#9E5B40",
+      "aliases": [],
+      "color": {
+        "value": 10378048
+      }
+    },
+    {
+      "name": "shamrock",
+      "hexCode": "#33CC99",
+      "aliases": [],
+      "color": {
+        "value": 3394713
+      }
+    },
+    {
+      "name": "sunset_orange",
+      "hexCode": "#FE4C40",
+      "aliases": [],
+      "color": {
+        "value": 16665664
+      }
+    },
+    {
+      "name": "tickle_me_pink",
+      "hexCode": "#FC80A5",
+      "aliases": [],
+      "color": {
+        "value": 16548005
+      }
+    },
+    {
+      "name": "timberwolf",
+      "hexCode": "#D9D6CF",
+      "aliases": [],
+      "color": {
+        "value": 14276303
+      }
+    },
+    {
+      "name": "ultramarine_blue",
+      "hexCode": "#3F26BF",
+      "aliases": [
+        "ultramarine"
+      ],
+      "color": {
+        "value": 4138687
+      }
+    }
+  ]
+}

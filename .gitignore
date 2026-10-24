@@ -1,0 +1,21 @@
+# runtime & generated — never commit
+libraries/
+versions/
+.fabric/
+logs/
+data/
+*.log
+# downloaded jars are reproducible via mods/manifest.json
+mods/*.jar
+!mods/manifest.json
+# generated server dirs
+bluemap/
+# server-run state (rebuilt at boot)
+mods/luckperms/
+config/Geyser-Fabric/cache/
+config/Geyser-Fabric/saved-refresh-tokens.json
+config/Geyser-Fabric/nethernet/
+config/Geyser-Fabric/certs/
+config/spark/tmp/
+# local env
+.env

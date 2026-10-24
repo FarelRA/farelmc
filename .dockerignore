@@ -1,0 +1,12 @@
+.git
+.github
+data/
+logs/
+versions/
+libraries/
+.fabric/
+*.log
+.gitignore
+README*.md
+.env*
+docker-compose*.yml

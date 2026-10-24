@@ -1,0 +1,639 @@
+[
+  {
+    "slug": "fabric-api",
+    "version": "0.165.0+26.3",
+    "file": "fabric-api-0.165.0+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/EQKgpeKu/fabric-api-0.165.0%2B26.3.jar",
+    "size": 1778588,
+    "date": "2026-10-23",
+    "sha512": "0a4b8a14e847b71567b557b43d906c2167fa263eeeef37454a821ba286996e3da1616dc2d9647736d28a250d5ecf400541cae808359b29a62324a8a6f2ad5e30",
+    "ok": true
+  },
+  {
+    "slug": "fabric-language-kotlin",
+    "version": "1.14.2+kotlin.2.4.21",
+    "file": "fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+    "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
+    "size": 8142878,
+    "date": "2026-10-09",
+    "sha512": "7fb475c4a7e7bdf8d0aca4b5798a58a354c51443d5b1fbde3e8cf34dfbf7191ef4238b5f07d08ec9490ec180b371624523326c3ad45d4ed2b2be541de9407e5d",
+    "ok": true
+  },
+  {
+    "slug": "zconfig",
+    "version": "1.0.0+26.x",
+    "file": "zconfig-1.0.0+26.x.jar",
+    "url": "https://cdn.modrinth.com/data/4qmvXRB9/versions/tsgt79sG/zconfig-1.0.0%2B26.x.jar",
+    "size": 405423,
+    "date": "2026-08-03",
+    "sha512": "baf87ac023fd0297f531897f0dcdcac3b0b35960683090adb3350a2281a211c5134a5373730a10628300caf5711b912705f16b33a1d1a73a3a86f346bcd7c6f5",
+    "ok": true
+  },
+  {
+    "slug": "cloth-config",
+    "version": "26.3.159+fabric",
+    "file": "cloth-config-fabric-26.3.159.jar",
+    "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/fg2uyxOW/cloth-config-fabric-26.3.159.jar",
+    "size": 1135009,
+    "date": "2026-09-23",
+    "sha512": "8924e19d41845096724fa10f3717bc51964a0edbbbcad0ff1e6c6187a398b08f356e49579a657c2dc44a7f92e3850771f3ca70bf8c1f654de60425163b91dbb1",
+    "ok": true
+  },
+  {
+    "slug": "almanac",
+    "version": "1.26.10.2",
+    "file": "almanac-fabric-26.3-1.26.10.2.jar",
+    "url": "https://cdn.modrinth.com/data/Gi02250Z/versions/lYr0UQEP/almanac-fabric-26.3-1.26.10.2.jar",
+    "size": 396108,
+    "date": "2026-10-15",
+    "sha512": "db2eccf1e21e5d883f7f7f2e76a9bf5097ff13cc5c5447856b3030f4abcf38f70265d1b8de0da9a4a84238c0bf3f645537bff1f52911ee665f67d9d7837396ae",
+    "ok": true
+  },
+  {
+    "slug": "lithium",
+    "version": "mc26.3-0.26.2-fabric",
+    "file": "lithium-fabric-0.26.2+mc26.3.jar",
+    "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/xS0Q8LSi/lithium-fabric-0.26.2%2Bmc26.3.jar",
+    "size": 914543,
+    "date": "2026-09-28",
+    "sha512": "4d7fee66132eedc71feab9390b92c95d7058edbdad0fecfac1d836a2950b97a7ca463afbede61c7ef361ce65e1f927ab9e89dde5bf2e0e0ce486afb5c5dbee40",
+    "ok": true
+  },
+  {
+    "slug": "ferrite-core",
+    "version": "9.0.0-fabric",
+    "file": "ferritecore-9.0.0-fabric.jar",
+    "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/d5ddUdiB/ferritecore-9.0.0-fabric.jar",
+    "size": 72677,
+    "date": "2026-03-24",
+    "sha512": "d81fa97e11784c19d42f89c2f433831d007603dd7193cee45fa177e4a6a9c52b384b198586e04a0f7f63cd996fed713322578bde9a8db57e1188854ae5cbe584",
+    "ok": true
+  },
+  {
+    "slug": "krypton",
+    "version": "0.3.2",
+    "file": "krypton-0.3.2.jar",
+    "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/UugdIYJw/krypton-0.3.2.jar",
+    "size": 268849,
+    "date": "2026-09-30",
+    "sha512": "d1d57ebd41395b75b01f130cd9503eb8d208212424a399ff9f367f50be8fbc1c6472442b33c686e777c3148f6a609520e8fb732c755157c358cb207fd4d1123a",
+    "ok": true
+  },
+  {
+    "slug": "pulsenet",
+    "version": "1.1.0+26.3",
+    "file": "pulsenet-1.1.0+26.2.jar",
+    "url": "https://cdn.modrinth.com/data/C5TrjUEt/versions/OHVWDjQc/pulsenet-1.1.0%2B26.2.jar",
+    "size": 172857,
+    "date": "2026-09-16",
+    "sha512": "45668a8cd60bc7ee6930f3fef2c5b939cd9d0d7424e5fe3fce351f49cca357013eaa232531f1a0a928062fd07b056610e5660de2f47edf5a9ff777511834110b",
+    "ok": true
+  },
+  {
+    "slug": "servercore",
+    "version": "1.5.20+26.3",
+    "file": "servercore-fabric-1.5.20+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/4WWQxlQP/versions/LCG1Bm84/servercore-fabric-1.5.20%2B26.3.jar",
+    "size": 901416,
+    "date": "2026-09-16",
+    "sha512": "abe1f806ea587971faf7de826e18b07314a4a9e690f64a4c3a54e7f61c3e6f4792633b13a917252bd8de154cec39da6619110d83799cf533450c5b4cac7a8448",
+    "ok": true
+  },
+  {
+    "slug": "modernfix-mvus",
+    "version": "5.27.20-build.2",
+    "file": "modernfix-5.27.20-build.2.jar",
+    "url": "https://cdn.modrinth.com/data/TjSm1wrD/versions/pa9cAfYg/modernfix-5.27.20-build.2.jar",
+    "size": 1168784,
+    "date": "2026-09-25",
+    "sha512": "b586434056107aac4ef86e9351d66170dac65a45a1e5f8bd48fb931b3012ab2431b16476eb9c256773339e2b4c60f6f3e90a4709180f700b2aea59ff607f4243",
+    "ok": true
+  },
+  {
+    "slug": "tt20",
+    "version": "0.8.5",
+    "file": "tt20-0.8.5+mc26.3-fabric.jar",
+    "url": "https://cdn.modrinth.com/data/YS3ZignI/versions/4v41bQe4/tt20-0.8.5%2Bmc26.3-fabric.jar",
+    "size": 51951,
+    "date": "2026-09-16",
+    "sha512": "00cb41024081b132a7f6a7310fe072839990f90dcaeac847df9e703e345421d64b5db11adca31fc26ee7177d029a776cb66f1a86712f1e3445f397ffdc9f52db",
+    "ok": true
+  },
+  {
+    "slug": "alternate-current",
+    "version": "mc26.3-1.9.0",
+    "file": "alternate-current-mc26.3-1.9.0.jar",
+    "url": "https://cdn.modrinth.com/data/r0v8vy1s/versions/nSBWPz6x/alternate-current-mc26.3-1.9.0.jar",
+    "size": 52230,
+    "date": "2026-09-15",
+    "sha512": "347fa8d0338a7e113c0cde70306d05037dbf9fc1e33c476159b4f5cf7b4fce8d3798d820ebf0e0dedd8450417802cb3a030bdcbecaf509961a83b2e43a469ad5",
+    "ok": true
+  },
+  {
+    "slug": "clumps",
+    "version": "26.3.2",
+    "file": "Clumps-fabric-26.3-26.3.2.jar",
+    "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/J4I1wxJZ/Clumps-fabric-26.3-26.3.2.jar",
+    "size": 20154,
+    "date": "2026-09-16",
+    "sha512": "8c166ae97e1999d0f213d0a181d6ef87b99648016c92c9aa1414d2c2e24364b12549569cd7e247a3d675df703ae6a8a88fc175d3f527818c710578408508c8ab",
+    "ok": true
+  },
+  {
+    "slug": "lmd",
+    "version": "1.26.10.2",
+    "file": "letmedespawn-fabric-26.3-1.26.10.2.jar",
+    "url": "https://cdn.modrinth.com/data/vE2FN5qn/versions/soddf0iE/letmedespawn-fabric-26.3-1.26.10.2.jar",
+    "size": 30356,
+    "date": "2026-10-17",
+    "sha512": "61e3bbad936df7ae3be80afe0acc7c9059eab409ebc95a6dfcb5857c173dffd45e3718b7b86d0be7138efba6923ec4b433b78b3381b8944703d2935b527cf0a7",
+    "ok": true
+  },
+  {
+    "slug": "get-it-together-drops",
+    "version": "v1.5.1",
+    "file": "getittogetherdrops-fabric-26.1.1-1.5.1.jar",
+    "url": "https://cdn.modrinth.com/data/T0OUgf8P/versions/BOGqc3kp/getittogetherdrops-fabric-26.1.1-1.5.1.jar",
+    "size": 82997,
+    "date": "2026-04-06",
+    "sha512": "9a3baea44ee6dfef6957027798f7aae672c3c18c54076c181b9bb3190c26fe09f1e54b3cd130f16290e770f3f64398a5d5dd7637043fe4aa012d049631d50d7f",
+    "ok": true
+  },
+  {
+    "slug": "lazyai",
+    "version": "1.7.1",
+    "file": "lazy-ai-1.7.1.jar",
+    "url": "https://cdn.modrinth.com/data/qgWgCnzi/versions/2d1u7MgF/lazy-ai-1.7.1.jar",
+    "size": 663627,
+    "date": "2026-09-22",
+    "sha512": "55069fed2abdbc375867b0d178499ac10590fddb66c42c95168a3c50002b10a7cd3c11f92ece04336ade2938dba6e824ea5744d74ea2430bbcd745de2440101a",
+    "ok": true
+  },
+  {
+    "slug": "mob-collision-off",
+    "version": "3.0",
+    "file": "mobcollisionoff-3.0.jar",
+    "url": "https://cdn.modrinth.com/data/kr8MOAlY/versions/zL9tyIq1/mobcollisionoff-3.0.jar",
+    "size": 89754,
+    "date": "2026-09-20",
+    "sha512": "73ecc8d851b050164275ba99f66957640ce60c32ae95443e6ce701d75e1ed10d1ecb45555d046eba1e84c325b62a77185f914d188fe3f094e6e5c99eb9aa4ebc",
+    "ok": true
+  },
+  {
+    "slug": "adaptive-performance-tweaks",
+    "version": "12.10.0",
+    "file": "adaptive_performance_tweaks-fabric-26.3-12.10.0.jar",
+    "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/kQfcFEz7/adaptive_performance_tweaks-fabric-26.3-12.10.0.jar",
+    "size": 510727,
+    "date": "2026-10-09",
+    "sha512": "fb42cfe61cd0ce6a528d89ff2a128f2a6c9b9c17536127ca1a4149a2e9853e9f2979c651f2ffc6bb1fc05249cac47dc04ff25f1c2d5cc4fe013b803fb12d3fa5",
+    "ok": true
+  },
+  {
+    "slug": "structure-layout-optimizer",
+    "version": "1.1.4+26.3-fabric",
+    "file": "structure_layout_optimizer-1.1.4+26.3-fabric.jar",
+    "url": "https://cdn.modrinth.com/data/ayPU0OHc/versions/crWm7jXS/structure_layout_optimizer-1.1.4%2B26.3-fabric.jar",
+    "size": 69717,
+    "date": "2026-09-16",
+    "sha512": "41294726277c99dd6b27fe04ec77ed360349652d1390b6efa00cf255f8230e26c130a6e297b2f23464cf4bd4be9a14d7032a317fada18bae74146955d4ac9caa",
+    "ok": true
+  },
+  {
+    "slug": "chunky",
+    "version": "1.5.3",
+    "file": "Chunky-Fabric-1.5.3.jar",
+    "url": "https://cdn.modrinth.com/data/fALzjamp/versions/4Eotm6ov/Chunky-Fabric-1.5.3.jar",
+    "size": 354095,
+    "date": "2026-05-04",
+    "sha512": "b83bfe7b218d0aa6232af977ae741dc1f82b10e50cd12bb759f65cf416b8b62beccb543e587ef0b9670abe03815660f8e091bc6823624d65cf07300571573516",
+    "ok": true
+  },
+  {
+    "slug": "spark",
+    "version": "1.10.187-fabric",
+    "file": "spark-1.10.187-fabric.jar",
+    "url": "https://cdn.modrinth.com/data/l6YH9Als/versions/e3hsPc1o/spark-1.10.187-fabric.jar",
+    "size": 3838499,
+    "date": "2026-09-19",
+    "sha512": "c74bf5d5a16b2445ec6ea717eac756412b272a8015e91f91a7bf5a27e6f2f99c4a11878d434510f941f37b0344b3a7d1ba0dd6c34e80642762c48fb6e9a93894",
+    "ok": true
+  },
+  {
+    "slug": "crashexploitfixer",
+    "version": "fabric-2.0.0+26.3",
+    "file": "crashexploitfixer-fabric-2.0.0+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/Z5GdSH3X/versions/rTvl7ojW/crashexploitfixer-fabric-2.0.0%2B26.3.jar",
+    "size": 701186,
+    "date": "2026-09-19",
+    "sha512": "ffc1a159fba4126c3fff1480b3b5e3f7f0508e1069faee117ea2e68a8276b510ae3e7e4026163134b3e5a5974fda922b10f554211e57d95e6ea74cb6dc0d9d09",
+    "ok": true
+  },
+  {
+    "slug": "disconnect-packet-fix",
+    "version": "2.3.0-fabric",
+    "file": "disconnect-packet-fix-fabric-2.3.0.jar",
+    "url": "https://cdn.modrinth.com/data/rd9rKuJT/versions/TXsGBFkk/disconnect-packet-fix-fabric-2.3.0.jar",
+    "size": 7033,
+    "date": "2026-09-18",
+    "sha512": "7d08b1d82df696d4e1899a7d535be530991b6894a250c75e902214aea6b9505abd7312fe09dcae4512b7f2367cf77a021364226ec5a875c46f820ceaaa2535c1",
+    "ok": true
+  },
+  {
+    "slug": "recipecooldown",
+    "version": "1.1.0+26.2",
+    "file": "RecipeCooldown-1.1.0+26.2.jar",
+    "url": "https://cdn.modrinth.com/data/7LEWYKTV/versions/v7KRefAi/RecipeCooldown-1.1.0%2B26.2.jar",
+    "size": 289333,
+    "date": "2026-07-30",
+    "sha512": "fc43d4ae1310cb526bb0c31c26b328f7f8030347f03afca078643b2b758568834a90cf3b978e54c607bb5bb648947cf4090a928dfc5f067d6881b2d4a3848e42",
+    "ok": true
+  },
+  {
+    "slug": "ksyxis",
+    "version": "1.4.6",
+    "file": "Ksyxis-1.4.6.jar",
+    "url": "https://cdn.modrinth.com/data/2ecVyZ49/versions/kzLBJQLn/Ksyxis-1.4.6.jar",
+    "size": 23873,
+    "date": "2026-10-08",
+    "sha512": "1571cd9b15b6733002dd164beab4ad1022fab2c904414b39db6fb609a41c48cca394f1751e5634ebc555795d9bd9dba48c2c280c152d9e0f570795d47a91c1d5",
+    "ok": true
+  },
+  {
+    "slug": "packet-fixer",
+    "version": "3.3.6",
+    "file": "PacketFixer-fabric-3.3.6.jar",
+    "url": "https://cdn.modrinth.com/data/c7m1mi73/versions/dTKbGYbb/PacketFixer-fabric-3.3.6.jar",
+    "size": 32477,
+    "date": "2026-09-15",
+    "sha512": "8d3139b150ef591c62b086f553be212bc72eb4a32b0b1f8bb5cc069a9b79a85046d31b1147e5aaff23e4b69bb92c76445d41884657a7b652def25e2b73d61613",
+    "ok": true
+  },
+  {
+    "slug": "view-distance-fix",
+    "version": "fabric-1.0.2+26.3",
+    "file": "viewdistancefix-fabric-1.0.2+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/nxrXbh5K/versions/Ucnvj39b/viewdistancefix-fabric-1.0.2%2B26.3.jar",
+    "size": 283069,
+    "date": "2026-09-15",
+    "sha512": "7fb68665b957776f4b7b1dae9c2562a911c4984268d85bf03a076663c62575dea50eda357af30b294292a78567696c626d414cbeaee14420ee20d58d7d2dd077",
+    "ok": true
+  },
+  {
+    "slug": "c2me-fabric",
+    "version": "0.4.2-alpha.0.106+26.3",
+    "file": "c2me-fabric-mc26.3-0.4.2-alpha.0.106.jar",
+    "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/gKKkuSYc/c2me-fabric-mc26.3-0.4.2-alpha.0.106.jar",
+    "size": 4195982,
+    "date": "2026-10-17",
+    "sha512": "047ed3fe3869d0185c6d1e94fd1e725b2ad40047e4929f22692090570af28d0075849cb65335b602658859c7d437cce51c94082c0c798617314764cfdc0a1d71",
+    "ok": true
+  },
+  {
+    "slug": "vmp-fabric",
+    "version": "0.2.0+beta.7.238+26.3",
+    "file": "vmp-fabric-mc26.3-0.2.0+beta.7.238-all.jar",
+    "url": "https://cdn.modrinth.com/data/wnEe9KBa/versions/2TFDVjDf/vmp-fabric-mc26.3-0.2.0%2Bbeta.7.238-all.jar",
+    "size": 409480,
+    "date": "2026-09-15",
+    "sha512": "c8658ccf8818a258e1160a2d394c80fd52708611570dc28d6bc391671a23e193760766ef77ddc5907e1a3a757cf20f4def67ae2bc184269effa547da1f377667",
+    "ok": true
+  },
+  {
+    "slug": "scalablelux",
+    "version": "0.3.0-alpha.0.6+26.3",
+    "file": "ScalableLux-fabric-mc26.3-0.3.0-alpha.0.6-all.jar",
+    "url": "https://cdn.modrinth.com/data/Ps1zyz6x/versions/g4eqNSKd/ScalableLux-fabric-mc26.3-0.3.0-alpha.0.6-all.jar",
+    "size": 193021,
+    "date": "2026-09-16",
+    "sha512": "ded5a939fb20ab81c1f33b147ca9b98050773dbb28dff16df939c7d567b626809522994ec8dbfb99e7f498dc6a4e62f25e141a87d18efb43f73fc5ad1569ccc9",
+    "ok": true
+  },
+  {
+    "slug": "async",
+    "version": "0.2.5+alpha-26.3",
+    "file": "async-fabric-0.2.5+alpha-26.3.jar",
+    "url": "https://cdn.modrinth.com/data/vEC2jm6I/versions/gcduhoHv/async-fabric-0.2.5%2Balpha-26.3.jar",
+    "size": 789345,
+    "date": "2026-10-04",
+    "sha512": "dc7662973c1493ccd29ccf390583192bc49d33782dfd5245002427d160a2752fb6b4b09e9e1c7a3dd0f3f373454ed0ea4f9ae9a23752994dcb389662506489dc",
+    "ok": true
+  },
+  {
+    "slug": "zfastnoise",
+    "version": "1.1.1+26.3",
+    "file": "zfastnoise-1.1.1+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/OnlVIpq5/versions/cCGI5KLE/zfastnoise-1.1.1%2B26.3.jar",
+    "size": 45699,
+    "date": "2026-10-01",
+    "sha512": "81e9e2063fac33293b14701b7c72b922febda5eaf5c7c631ab9f588c96ba835df7dfd14dcac6763f414e83366c72445fdfae4d74ba7f7a9b73707446a264c87f",
+    "ok": true
+  },
+  {
+    "slug": "zfastsurface",
+    "version": "1.0.0+26.3",
+    "file": "zfastsurface-1.0.0+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/FRSaEVFk/versions/yOBmJfgG/zfastsurface-1.0.0%2B26.3.jar",
+    "size": 38430,
+    "date": "2026-09-28",
+    "sha512": "7a8f2b72bcb903625bb521d6f99186741e7fc2e63bac574714e3f5fa4c606fea9249104f4756e7384b907245de74564c1c53397dfe951cb292d84cb0fc9747e4",
+    "ok": true
+  },
+  {
+    "slug": "zmaterial-rule-compiler",
+    "version": "1.1.2+26.3",
+    "file": "zmatcomp-1.1.2+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/vnpqfrJN/versions/PhNBmIWF/zmatcomp-1.1.2%2B26.3.jar",
+    "size": 134465,
+    "date": "2026-10-11",
+    "sha512": "0daf682fefca09212897d06e5cce544b4985cf79d17aed73f98a65b91513e70c06679fbbc261ffa1abbb89b92b99abb103368bedd645fe485b50a98d2a24e463",
+    "ok": true
+  },
+  {
+    "slug": "debugify",
+    "version": "26.3.0.0",
+    "file": "debugify-26.3.0.0.jar",
+    "url": "https://cdn.modrinth.com/data/QwxR6Gcd/versions/FMaS2nZn/debugify-26.3.0.0.jar",
+    "size": 355344,
+    "date": "2026-09-24",
+    "sha512": "",
+    "ok": true
+  },
+  {
+    "slug": "forge-config-api-port",
+    "version": "26.3.1",
+    "file": "ForgeConfigAPIPort-v26.3.1-mc26.3.x-Fabric.jar",
+    "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/JpKvrr9J/ForgeConfigAPIPort-v26.3.1-mc26.3.x-Fabric.jar",
+    "size": 609574,
+    "date": "2026-09-21",
+    "sha512": "",
+    "ok": true
+  },
+  {
+    "slug": "resourceful-config",
+    "version": "6.0.2",
+    "file": "ResourcefulConfig-6.0.2.jar",
+    "url": "https://cdn.modrinth.com/data/M1953qlQ/versions/t3odHyFJ/ResourcefulConfig-6.0.2.jar",
+    "size": 444092,
+    "date": "2026-10-07",
+    "sha512": "",
+    "ok": true
+  },
+  {
+    "slug": "polymer",
+    "version": "0.18.4+26.3",
+    "file": "polymer-bundled-0.18.4+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/xGdtZczs/versions/G0fTdl8M/polymer-bundled-0.18.4%2B26.3.jar",
+    "size": 1420031,
+    "date": "2026-10-11",
+    "sha512": "",
+    "ok": true,
+    "why": "virtual entities/items server-side, universal-graves/shops need it"
+  },
+  {
+    "slug": "jamlib",
+    "version": "2.3.1+26.3.x",
+    "file": "jamlib-fabric-2.3.1+26.3.x.jar",
+    "url": "https://cdn.modrinth.com/data/IYY9Siz8/versions/EbhilCj8/jamlib-fabric-2.3.1%2B26.3.x.jar",
+    "size": 265050,
+    "date": "2026-09-18",
+    "sha512": "",
+    "ok": true,
+    "why": "required lib for rightclickharvest (shared)"
+  },
+  {
+    "slug": "luckperms",
+    "version": "v5.5.85-fabric",
+    "file": "LuckPerms-Fabric-5.5.85.jar",
+    "url": "https://cdn.modrinth.com/data/Vebnzrzj/versions/DzQPkkXY/LuckPerms-Fabric-5.5.85.jar",
+    "size": 1634800,
+    "date": "2026-09-19",
+    "sha512": "",
+    "ok": true,
+    "why": "permissions backend, 3.05M dl #1 permissions mod"
+  },
+  {
+    "slug": "essential-commands",
+    "version": "0.42.0-mc26.3",
+    "file": "essential_commands-0.42.0-mc26.3.jar",
+    "url": "https://cdn.modrinth.com/data/6VdDUivB/versions/KANmt7ie/essential_commands-0.42.0-mc26.3.jar",
+    "size": 1019973,
+    "date": "2026-09-22",
+    "sha512": "",
+    "ok": true,
+    "why": "full kit spawn/rtp/fly/nick/workbench, LuckPerms nodes; pick ONE of ec/teleport-commands"
+  },
+  {
+    "slug": "universal-graves",
+    "version": "3.13.0+26.3",
+    "file": "graves-3.13.0+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/yn9u3ypm/versions/r9hY06vQ/graves-3.13.0%2B26.3.jar",
+    "size": 770590,
+    "date": "2026-09-10",
+    "sha512": "",
+    "ok": true,
+    "why": "death chests, 5.17M dl #1 graves"
+  },
+  {
+    "slug": "universal-shops",
+    "version": "1.16.0+26.3",
+    "file": "universal_shops-1.16.0+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/cnIatHrN/versions/nQOUyX9T/universal_shops-1.16.0%2B26.3.jar",
+    "size": 619888,
+    "date": "2026-09-11",
+    "sha512": "",
+    "ok": true,
+    "why": "chest shops server-side"
+  },
+  {
+    "slug": "simple-voice-chat",
+    "version": "fabric-2.6.25+26.3",
+    "file": "voicechat-fabric-2.6.25+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/yuPrCKIE/voicechat-fabric-2.6.25%2B26.3.jar",
+    "size": 5614066,
+    "date": "2026-10-22",
+    "sha512": "",
+    "ok": true,
+    "why": "proximity voice, 76.5M dl"
+  },
+  {
+    "slug": "bluemap",
+    "version": "5.29-fabric",
+    "file": "bluemap-5.29-fabric.jar",
+    "url": "https://cdn.modrinth.com/data/swbUV1cr/versions/SX74rxzP/bluemap-5.29-fabric.jar",
+    "size": 7085342,
+    "date": "2026-10-10",
+    "sha512": "",
+    "ok": true,
+    "why": "3D web map, renders off-thread"
+  },
+  {
+    "slug": "rightclickharvest",
+    "version": "4.6.2+26.3.x",
+    "file": "rightclickharvest-fabric-4.6.2+26.3.x.jar",
+    "url": "https://cdn.modrinth.com/data/Cnejf5xM/versions/MTui9kST/rightclickharvest-fabric-4.6.2%2B26.3.x.jar",
+    "size": 280022,
+    "date": "2026-09-18",
+    "sha512": "",
+    "ok": true,
+    "why": "harvest without replant, 13.3M dl"
+  },
+  {
+    "slug": "styled-nicknames",
+    "version": "1.14.0+26.3",
+    "file": "styled-nicknames-1.14.0+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/DOk6Gcdi/versions/fVUQu97Q/styled-nicknames-1.14.0%2B26.3.jar",
+    "size": 298673,
+    "date": "2026-09-11",
+    "sha512": "",
+    "ok": true,
+    "why": "nicknames server-side, LuckPerms-aware"
+  },
+  {
+    "slug": "styledplayerlist",
+    "version": "3.13.0+26.3",
+    "file": "styledplayerlist-3.13.0+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/DQIfKUHf/versions/fVZtsR9U/styledplayerlist-3.13.0%2B26.3.jar",
+    "size": 375976,
+    "date": "2026-09-11",
+    "sha512": "",
+    "ok": true,
+    "why": "tablist formatting companion"
+  },
+  {
+    "slug": "serversleep",
+    "version": "3+mod",
+    "file": "serversleep-3.jar",
+    "url": "https://cdn.modrinth.com/data/Cw8IlnGM/versions/roog9lKa/serversleep-3.jar",
+    "size": 9195,
+    "date": "2025-12-14",
+    "sha512": "",
+    "ok": true,
+    "why": "one-player sleep %, tiny 9KB"
+  },
+  {
+    "slug": "minimotd",
+    "version": "2.2.5",
+    "file": "minimotd-fabric-mc26.3-2.2.5.jar",
+    "url": "https://cdn.modrinth.com/data/16vhQOQN/versions/Xw6ErwXl/minimotd-fabric-mc26.3-2.2.5.jar",
+    "size": 1751585,
+    "date": "2026-09-18",
+    "sha512": "",
+    "ok": true,
+    "why": "MiniMessage MOTD, server list QoL"
+  },
+  {
+    "slug": "afkplus",
+    "version": "v1.7.17-mc26.3",
+    "file": "afkplus-v1.7.17-mc26.3.jar",
+    "url": "https://cdn.modrinth.com/data/y8K2TFS3/versions/F5nErSLZ/afkplus-v1.7.17-mc26.3.jar",
+    "size": 1328461,
+    "date": "2026-09-23",
+    "sha512": "",
+    "ok": true,
+    "why": "afk display/kick/tp"
+  },
+  {
+    "slug": "image2map",
+    "version": "0.15.0+26.3",
+    "file": "image2map-0.15.0+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/13RpG7dA/versions/RLSKXT7Y/image2map-0.15.0%2B26.3.jar",
+    "size": 880076,
+    "date": "2026-09-11",
+    "sha512": "",
+    "ok": true,
+    "why": "images to maps, no client needed"
+  },
+  {
+    "slug": "invview",
+    "version": "1.4.22",
+    "file": "InvView-1.4.22-26.3+.jar",
+    "url": "https://cdn.modrinth.com/data/jrDKjZP7/versions/uySsk7v8/InvView-1.4.22-26.3%2B.jar",
+    "size": 169075,
+    "date": "2026-09-26",
+    "sha512": "",
+    "ok": true,
+    "why": "admin inventory inspection"
+  },
+  {
+    "slug": "carpet",
+    "version": "26.3",
+    "file": "fabric-carpet-26.3+v260915.jar",
+    "url": "https://cdn.modrinth.com/data/TQTTVgYE/versions/yt9oDFOj/fabric-carpet-26.3%2Bv260915.jar",
+    "size": 1541420,
+    "date": "2026-09-18",
+    "sha512": "",
+    "ok": true,
+    "why": "tick control /tick warp, /log profiling, /player bots, /scarpet (set: carpet setDefault lagFreeSpawning true; carpet setDefault commandPermissionLevel 2)"
+  },
+  {
+    "slug": "viafabric",
+    "version": "0.4.22+188-26.x",
+    "file": "ViaFabric-0.4.22+188-26.x.jar",
+    "url": "https://cdn.modrinth.com/data/YlKdE5VK/versions/z1FVDMnq/ViaFabric-0.4.22%2B188-26.x.jar",
+    "size": 5916758,
+    "date": "2026-10-22",
+    "sha512": "090e8b47b413523b8682c3953beb6d99e5a92473a8d0580bdbf6a057352aadb8ad8b7a2d08f36c99c14ed3294923102c45724c88b24d697a05b729925ce03de3",
+    "ok": true
+  },
+  {
+    "slug": "viabackwards",
+    "version": "5.12.2-SNAPSHOT+662",
+    "file": "ViaBackwards-5.12.2-SNAPSHOT.jar",
+    "url": "https://cdn.modrinth.com/data/NpvuJQoq/versions/wvN2z9sR/ViaBackwards-5.12.2-SNAPSHOT.jar",
+    "size": 1439004,
+    "date": "2026-10-21",
+    "sha512": "a2bacf634b4bc04f62f3c86c8f82e8c524714e4e2c3ce358fefa2a8f4b22f2aef1bbdd60e408ae310e1ad06efd0f902c6cd4abfce23bc1562d830a29aa5fb885",
+    "ok": true
+  },
+  {
+    "slug": "viarewind",
+    "version": "4.2.0",
+    "file": "ViaRewind-4.2.0.jar",
+    "url": "https://cdn.modrinth.com/data/TbHIxhx5/versions/EPLCoxMK/ViaRewind-4.2.0.jar",
+    "size": 408809,
+    "date": "2026-09-18",
+    "sha512": "7f3a2a972a3fe45f9c16b48a2e2b08fca6aa70da77eb8e47644726f19a43dc24116c2f7e126434f9f9388fa1b987a014efe287e3980f773b6e261313e7e939b2",
+    "ok": true
+  },
+  {
+    "slug": "viaaprilfools",
+    "version": "4.2.3",
+    "file": "ViaAprilFools-4.2.3.jar",
+    "url": "https://cdn.modrinth.com/data/s0sJjaze/versions/gTYyMwNz/ViaAprilFools-4.2.3.jar",
+    "size": 201594,
+    "date": "2026-09-18",
+    "sha512": "4ed900ab5162f41ef512764ab6c6d6353448afa1f4b33f3a775655df0618d93f2c58243469cbf49edf2402fe5f6eef29194e148e779aaaa6ca32db1eba1c1fa9",
+    "ok": true
+  },
+  {
+    "slug": "geyser",
+    "version": "2.12.0-b1270",
+    "file": "Geyser-Fabric-2.12.0-b1270.jar",
+    "url": "https://cdn.modrinth.com/data/wKkoqHrH/versions/Vx9RY5fp/Geyser-Fabric-2.12.0-b1270.jar",
+    "size": 45060776,
+    "date": "2026-10-23",
+    "sha512": "a0c05daff4ac64ca1dc1808704deefb24c95e9e647369c4135aaac654972992605835b34cfa69f4d9c7836d6f5d70188bd77ff2e42541cac9b62a906d6fba338",
+    "ok": true
+  },
+  {
+    "slug": "floodgate",
+    "version": "2.2.7-b69",
+    "file": "Floodgate-Fabric-2.2.7-b69.jar",
+    "url": "https://cdn.modrinth.com/data/bWrNNfkb/versions/m9eO07Zi/Floodgate-Fabric-2.2.7-b69.jar",
+    "size": 2606580,
+    "date": "2026-09-17",
+    "sha512": "9185fc96c0f301ee0867d83065c210277062ad3d1536e9d4231263fa32ed3223d008268c48de9e00f0e9a2240a2c45c438934d01efa40b1b523b0d072eb322d5",
+    "ok": true
+  },
+  {
+    "slug": "viaversion",
+    "version": "5.12.2-SNAPSHOT+1109",
+    "file": "ViaVersion-5.12.2-SNAPSHOT.jar",
+    "url": "https://cdn.modrinth.com/data/P1OZGk5p/versions/eavgfe2D/ViaVersion-5.12.2-SNAPSHOT.jar",
+    "size": 6501775,
+    "date": "2026-10-23",
+    "sha512": "f721df7a868d3fe87c3121329b9aa1f3dd7a9b90b79443c43ba5e007962437dbc0661e9dff366b1c0e1e75a85e2652aaef56061d073020b707dd7f8f2dc26bc7",
+    "ok": true
+  }
+]
