@@ -31,17 +31,25 @@ for f in whitelist.json ops.json banned-ips.json banned-players.json usercache.j
   [ -e "/server/$f" ] || ln -sfn "/data/$f" "/server/$f"
 done
 
-# Secrets NEVER live in the repo: RCON password (+ management secret, kept
-# disabled upstream) come from the container env and land in server.properties
-# at boot. Both live only in nodus-infra data/minecraft/.env (mode 600).
+# Secrets NEVER live in the repo. RCON password (and the management secret,
+# kept disabled upstream) come from the container env and land in the LIVE
+# server.properties at boot. Both live only in nodus-infra
+# data/minecraft/.env (mode 600). Uses tmp swap because server.properties is
+# a bind-mounted file and sed in place cannot rename across that mount.
 if [ -n "${RCON_PASSWORD:-}" ]; then
-  sed -i "s/^rcon\.password=.*/rcon.password=${RCON_PASSWORD}/" /server/server.properties
+  sed "s/^rcon\.password=.*/rcon.password=${RCON_PASSWORD}/" /server/server.properties > /tmp/server.properties \
+    && cat /tmp/server.properties > /server/server.properties \
+    && rm -f /tmp/server.properties
 else
   echo "WARN: RCON_PASSWORD is unset so RCON stays disabled in server.properties" >&2
-  sed -i "s/^enable-rcon=true.*/enable-rcon=false/" /server/server.properties
+  sed "s/^enable-rcon=true.*/enable-rcon=false/" /server/server.properties > /tmp/server.properties \
+    && cat /tmp/server.properties > /server/server.properties \
+    && rm -f /tmp/server.properties
 fi
 if [ -n "${MGMT_SECRET:-}" ]; then
-  sed -i "s/^management-server-secret=.*/management-server-secret=${MGMT_SECRET}/" /server/server.properties
+  sed "s/^management-server-secret=.*/management-server-secret=${MGMT_SECRET}/" /server/server.properties > /tmp/server.properties \
+    && cat /tmp/server.properties > /server/server.properties \
+    && rm -f /tmp/server.properties
 fi
 
 HEAP="${HEAP_GB:-4}G"
