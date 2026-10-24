@@ -61,16 +61,17 @@ bedrock:
 
     # Settings for built-in signaling. Only used in the "builtin" and "hybrid" modes.
     builtin:
-      # Settings for serving built-in signaling over HTTPS. When configured, HTTP will be rejected.
+      # Plain HTTP — Traefik terminates signaling TLS (see nodus-infra) and
+      # reverse-proxies here. Never set a cert here; the exporter is gone.
       https:
         # Path to a TLS certificate. This can be a PEM chain (put its key in "private-key"),
         # or a PKCS12 file (leave "private-key" empty).
         # Players connecting over HTTPS do not see the "trust on first use" prompt.
         # Leave empty to only use HTTP.
-        certificate: 'certs/signaling-fullchain.pem'
+        certificate: ''
 
         # Path to the PEM private key for "certificate". Leave empty if "certificate" is a PKCS12 file.
-        private-key: 'certs/signaling-privkey.pem'
+        private-key: ''
 
         # Password for the PKCS12 file, or for the PEM private key if it is encrypted. Leave empty if there is none.
         # You can also use "file:/path/to/password" to read it from a file, which is safer than writing it here.
@@ -291,7 +292,11 @@ advanced:
     # Built-in signaling reads the player's real address from the "X-Forwarded-For" header, and does not apply
     # its per-address connection limit to them for all listed proxies. This is separate from HAPROXY protocol.
     # IP addresses, subnets, and links to plain text files are supported.
-    signaling-trusted-proxies: []
+    # Traefik terminates signaling TLS (nodus-infra) and reverse-proxies plain
+    # HTTP here — the router subnet must stay trusted or every Bedrock player
+    # looks like one address (connection-limit + wrong IPs).
+    signaling-trusted-proxies:
+      - 10.89.0.0/24
 
     # Should be enabled if this Geyser instance is behind a WaterdogPE proxy. If enabled, Geyser will
     # use the xuid / address sent from WaterdogPE and reject clients that do not send it.

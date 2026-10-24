@@ -28,9 +28,9 @@
 ```bash
 ./scripts/download-mods.sh  # fetch 62 jars (also run by CI)
 ./scripts/verify.sh         # boot smoke test (bare metal, needs Java 25)
-docker compose up --build   # dev server (HTTPS signaling = trust prompt; prod gets real ACME cert)
+docker compose up --build   # dev server (plain-HTTP signaling; prod Traefik terminates TLS)
 ```
 
-Prod (nodus-infra): `ghcr.io/farelra/farelmc:latest` + Traefik routes
-(`map.mc.farel.is-a.dev` → BlueMap, `mc.farel.is-a.dev` ACME via
-`minecraft-cert-exporter` → Geyser `certs/`), raw publishes for game UDP/TCP.
+Prod (nodus-infra): `ghcr.io/farelra/farelmc:latest` + Traefik terminates ALL
+TLS (BlueMap `map.mc.farel.is-a.dev`, NetherNet signaling `mc.farel.is-a.dev:19132`
+→ plain HTTP to Geyser, trusted `10.89.0.0/24`), raw publishes for game UDP/TCP.
