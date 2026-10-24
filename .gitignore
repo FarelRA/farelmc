@@ -19,3 +19,5 @@ config/Geyser-Fabric/certs/
 config/spark/tmp/
 # local env
 .env
+# LuckPerms ships its own translations at boot — don't vendor them
+config/luckperms/translations/
