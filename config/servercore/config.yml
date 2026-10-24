@@ -33,14 +33,16 @@ features:
 # Automatically modifies dynamic settings based on the server performance.
 dynamic:
   # Enables dynamic performance checks.
-  enabled: false
+  # ON for the 2-core Oracle box. Shrinks view and sim distance when MSPT
+  # climbs, restores when load clears. Ceilings match server.properties.
+  enabled: true
   # The average MSPT to target.
   target-mspt: 45
   # The default values for dynamic settings.
   # If left unspecified, the maximum value will be used.
   # Note: adding view / simulation distance here will override their value in server.properties.
   default-values:
-    CHUNK_TICK_DISTANCE: 10
+    CHUNK_TICK_DISTANCE: 32
     MOBCAP_PERCENTAGE: 100
 
   # The settings that will be decreased when the server is overloaded, in the specified order.
@@ -51,8 +53,8 @@ dynamic:
   # ► interval = The amount of seconds between each check to increase or decrease.
   dynamic-settings:
     - setting: 'CHUNK_TICK_DISTANCE'
-      max: 10
-      min: 6
+      max: 32
+      min: 12
       increment: 1
       interval: 15
 
@@ -63,14 +65,14 @@ dynamic:
       interval: 15
 
     - setting: 'SIMULATION_DISTANCE'
-      max: 10
-      min: 6
+      max: 12
+      min: 5
       increment: 1
       interval: 15
 
     - setting: 'CHUNK_TICK_DISTANCE'
-      max: 6
-      min: 2
+      max: 12
+      min: 4
       increment: 1
       interval: 15
 
@@ -81,14 +83,14 @@ dynamic:
       interval: 15
 
     - setting: 'SIMULATION_DISTANCE'
-      max: 6
+      max: 5
       min: 2
       increment: 1
       interval: 15
 
     - setting: 'VIEW_DISTANCE'
-      max: 10
-      min: 5
+      max: 32
+      min: 12
       increment: 1
       interval: 150
 
