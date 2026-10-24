@@ -1,10 +1,17 @@
 #!/usr/bin/env bash
 # Re-download all pinned mods from mods/manifest.json (no jars in git).
+# Usage: bash scripts/download-mods.sh [out-dir]
+#   OUT env or $1 wins (install.sh points it at the installed tree);
+#   default is the repo-adjacent mods/ dir (dev/verify/CI flow).
 set -euo pipefail
-cd "$(dirname "$0")/../mods"
-python3 - <<'PY'
-import json, urllib.request, os
-man = json.load(open('manifest.json'))
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+OUT="${1:-${OUT:-$ROOT/mods}}"
+MAN="$ROOT/mods/manifest.json"
+mkdir -p "$OUT"
+cd "$OUT"
+python3 - "$MAN" <<'PY'
+import json, urllib.request, os, sys
+man = json.load(open(sys.argv[1]))
 for m in man:
     fn = m['file']
     if os.path.exists(fn) and os.path.getsize(fn) == m['size']:
