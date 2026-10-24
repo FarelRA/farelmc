@@ -402,17 +402,6 @@
     "why": "required lib for rightclickharvest (shared)"
   },
   {
-    "slug": "luckperms",
-    "version": "v5.5.85-fabric",
-    "file": "LuckPerms-Fabric-5.5.85.jar",
-    "url": "https://cdn.modrinth.com/data/Vebnzrzj/versions/DzQPkkXY/LuckPerms-Fabric-5.5.85.jar",
-    "size": 1634800,
-    "date": "2026-09-19",
-    "sha512": "",
-    "ok": true,
-    "why": "permissions backend, 3.05M dl #1 permissions mod"
-  },
-  {
     "slug": "essential-commands",
     "version": "0.42.0-mc26.3",
     "file": "essential_commands-0.42.0-mc26.3.jar",

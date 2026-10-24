@@ -1,8 +1,8 @@
 # FarelMC — Fabric 26.3 SMP, universal join (Java + Bedrock).
-# Image bakes the 62 pinned mod jars; per-mod configs mount at runtime
+# Image bakes the 61 pinned mod jars; per-mod configs mount at runtime
 # (nodus-infra) or live in ./config (bare-metal dev).
 # Runs as container root — under rootless podman this maps to the unprivileged
-# host user, so bind-mounted config/data stay writable (VMP/FerriteCore/LuckPerms/
+# host user, so bind-mounted config/data stay writable (VMP/FerriteCore/
 # Geyser all write on first boot).
 FROM eclipse-temurin:25-jre
 RUN mkdir -p /server /data /pinned-mods
