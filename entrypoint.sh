@@ -15,10 +15,10 @@ fi
 #   /server/luckperms-data -> LuckPerms H2 + libs (persistent volume)
 #   /server/nethernet-data -> Geyser NetherNet identity.pem (persistent volume)
 # The jars expect them under their own config dirs — symlink once per boot.
-for link in "luckperms-data:config/luckperms-data" "nethernet-data:config/Geyser-Fabric/nethernet"; do
-  src="/server/${link%%:*}"; dst="/server/${link##:*}"
-  if [ -e "$src" ]; then
-    if [ ! -L "$dst" ] || [ "$(readlink "$dst")" != "$src" ]; then rm -rf "$dst"; ln -sfn "$src" "$dst"; fi
+for spec in "luckperms-data:config/luckperms-data" "nethernet-data:config/Geyser-Fabric/nethernet"; do
+  sdir="/server/${spec%%:*}"; dlink="/server/${spec##*:}"
+  if [ -e "$sdir" ]; then
+    if [ ! -L "$dlink" ] || [ "$(readlink "$dlink")" != "$sdir" ]; then rm -rf "$dlink"; ln -sfn "$sdir" "$dlink"; fi
   fi
 done
 
