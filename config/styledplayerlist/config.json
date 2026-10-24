@@ -20,5 +20,15 @@
     "update_tick_time": -1,
     "styles": []
   },
+  "header": [
+    "",
+    "<green><bold>  FarelMC  </bold><gray>— friends survival",
+    ""
+  ],
+  "footer": [
+    "",
+    "<gray>Java <green>mc.farel.is-a.dev<gray> · Bedrock same address :19132",
+    "<gray>Type <green>/rules <gray>· <green>/help <gray>· have fun!"
+  ],
   "client_show_in_singleplayer": true
 }

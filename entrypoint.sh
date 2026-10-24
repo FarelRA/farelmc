@@ -31,6 +31,19 @@ for f in whitelist.json ops.json banned-ips.json banned-players.json usercache.j
   [ -e "/server/$f" ] || ln -sfn "/data/$f" "/server/$f"
 done
 
+# Secrets NEVER live in the repo: RCON password (+ management secret, kept
+# disabled upstream) come from the container env and land in server.properties
+# at boot. Both live only in nodus-infra data/minecraft/.env (mode 600).
+if [ -n "${RCON_PASSWORD:-}" ]; then
+  sed -i "s/^rcon\.password=.*/rcon.password=${RCON_PASSWORD}/" /server/server.properties
+else
+  echo "WARN: RCON_PASSWORD unset — RCON stays disabled in server.properties" >&2
+  sed -i "s/^enable-rcon=true.*/enable-rcon=false/" /server/server.properties
+fi
+if [ -n "${MGMT_SECRET:-}" ]; then
+  sed -i "s/^management-server-secret=.*/management-server-secret=${MGMT_SECRET}/" /server/server.properties
+fi
+
 HEAP="${HEAP_GB:-4}G"
 exec java -Xms"$HEAP" -Xmx"$HEAP" \
   -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 \

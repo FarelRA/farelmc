@@ -119,7 +119,7 @@ motd:
 # Gameplay options that affect Bedrock players
 gameplay:
   # The server name that will be sent to Minecraft: Bedrock Edition clients. This is visible in both the pause menu and the settings menu.
-  server-name: FarelMC
+  server-name: FarelMC — friends survival
 
   # Allow a fake cooldown indicator to be sent. Bedrock players otherwise do not see a cooldown as they still use 1.8 combat.
   # Please note: with the integrated pack disabled, some users may see a black box during the cooldown sequence, like below:

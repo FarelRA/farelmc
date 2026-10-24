@@ -17,7 +17,7 @@ default-locale: en_US
 disconnect:
   # The disconnect message Geyser users should get when connecting
   # to the server with an invalid key
-  invalid-key: Please connect through the official Geyser
+  invalid-key: Hmm, that didn't look like the official FarelMC join — please connect through the in-game server list (mc.farel.is-a.dev).
   # The disconnect message Geyser users should get when connecting
   # to the server with the correct key but not with the correct data format
   invalid-arguments-length: Expected {} arguments, got {}. Is Geyser up-to-date?

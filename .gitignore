@@ -18,3 +18,6 @@ config/Geyser-Fabric/certs/
 config/spark/tmp/
 # local env
 .env
+# Floodgate private key: the live one is generated on the box, the repo must
+# never hold a usable key (anyone reading it could mint trusted Bedrock logins).
+config/floodgate/key.pem
