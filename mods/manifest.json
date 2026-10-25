@@ -691,5 +691,27 @@
     "sha512": "2a5b1f3a074d567c6134b918cd711ad64015cf3db0c1dfaf083f66af56004ae2ecda80e63593e1c20dae99f7237b718efde851e1e85f6e1ba604ba87469f60ff",
     "ok": true,
     "why": "silence Stardust Labs intro spam"
+  },
+  {
+    "slug": "cristel-lib",
+    "version": "fabric-26.3-3.1.13",
+    "file": "cristellib-fabric-26.3-3.1.13.jar",
+    "url": "https://cdn.modrinth.com/data/cl223EMc/versions/rWxmPrGC/cristellib-fabric-26.3-3.1.13.jar",
+    "size": 588323,
+    "date": "2026-09-19",
+    "sha512": "96198dfc067ce7003cad9b211286e58e36efcaa29729af3c09c643d3e8bd8a54e5814eb8d88680a38caf9e6328a541151b6c6b1bd9ac117d9c7278d93d6de88c",
+    "ok": true,
+    "why": "required lib for Towns and Towers"
+  },
+  {
+    "slug": "towns-and-towers",
+    "version": "1.13.12",
+    "file": "t_and_t-fabric-neoforge-1.13.12.jar",
+    "url": "https://cdn.modrinth.com/data/DjLobEOy/versions/yajFnGZS/t_and_t-fabric-neoforge-1.13.12.jar",
+    "size": 3195626,
+    "date": "2026-09-16",
+    "sha512": "6774391b873d0241538be29cf7f8299ebfaf2d9f03292b28103dff41fced203dc69e64032ca9b99e3b5364de2169f654a6633a255465adc994db17ac0a4c33d8",
+    "ok": true,
+    "why": "villages outposts ships, 18.9M dl server-side"
   }
 ]

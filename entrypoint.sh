@@ -5,7 +5,7 @@ set -eu
 
 mkdir -p /server/mods /data
 
-# Seed the 67 pinned jars (first boot copies; later boots: -n keeps existing).
+# Seed the 69 pinned jars (first boot copies; later boots: -n keeps existing).
 # Fresh mod versions land via a rebuilt image (CI) + recreated container.
 if [ -d /pinned-mods ]; then
   cp -n /pinned-mods/*.jar /server/mods/ 2>/dev/null || true

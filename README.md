@@ -4,7 +4,7 @@
 > (`:latest` + short-sha, arm64+amd64) on every `main` push; prod runs from
 > nodus-infra, which pulls the image and fronts it with Traefik.
 
-- **Server:** `MC 26.3 + Fabric Loader 0.20.1 + Java 25`, 67 pinned jars
+- **Server:** `MC 26.3 + Fabric Loader 0.20.1 + Java 25`, 69 pinned jars
   (listed in `mods/manifest.json`. The Via stack lets any Java version join.
   Geyser plus Floodgate lets current Bedrock join with no Java account).
 - **Ports:** Java `:25565/tcp`, Bedrock `:19132/udp+tcp` + `:19133/udp`,
@@ -17,7 +17,7 @@
 | Path | Purpose |
 |---|---|
 | `Dockerfile`, `entrypoint.sh` | Temurin 25 image; seeds jars, links persistent data |
-| `mods/manifest.json` | 67 pinned 26.3 jars. `scripts/download-mods.sh` fetches them again |
+| `mods/manifest.json` | 69 pinned 26.3 jars. `scripts/download-mods.sh` fetches them again |
 | `config/` | Tuned per-mod defaults. The server may add version stamps there and that is harmless |
 | `server.properties`, `eula.txt` | Committed tuning |
 | `scripts/` | `download-mods.sh` `install.sh` `run.sh` `verify.sh` `backup.sh` `pregen.sh` |
@@ -26,7 +26,7 @@
 ## Dev
 
 ```bash
-./scripts/download-mods.sh  # fetch 67 jars (also run by CI)
+./scripts/download-mods.sh  # fetch 69 jars (also run by CI)
 ./scripts/verify.sh         # boot smoke test (bare metal, needs Java 25)
 docker compose up --build   # dev server (plain-HTTP signaling; prod Traefik terminates TLS)
 ```
