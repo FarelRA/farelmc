@@ -53,8 +53,8 @@
   },
   "teleportation": {
     "cost": {
-      "count": 0,
-      "type": "free"
+      "type": "free",
+      "count": 0
     },
     "required_time": 5,
     "y_offset": 1.0,
@@ -315,7 +315,7 @@
     "hours_suffix": "h",
     "minutes_suffix": "m",
     "seconds_suffix": "s",
-    "infinity": "\u221e",
+    "infinity": "∞",
     "date_format": "dd.MM.yyyy, HH:mm",
     "world_names": {}
   }
