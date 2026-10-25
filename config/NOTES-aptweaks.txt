@@ -1,2 +1,0 @@
-# Adaptive Performance Tweaks is on. The server now adapts view distance, sim distance, spawn and gamerules by itself.
-# /aptweaks adjustments in console; reports in adaptive_performance_tweaks/reports/.
