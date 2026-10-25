@@ -180,7 +180,7 @@ gameplay:
   # Allows Xbox achievements to be unlocked.
   # If a player types in an unknown command, they will receive a message that states cheats are disabled.
   # Otherwise, commands work as expected.
-  xbox-achievements-enabled: false
+  xbox-achievements-enabled: true
 
   # The maximum number of custom skulls to be displayed per player. Increasing this may decrease performance on weaker devices.
   # A value of 0 will disable all custom skulls.
