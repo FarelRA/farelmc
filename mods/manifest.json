@@ -210,16 +210,6 @@
     "ok": true
   },
   {
-    "slug": "spark",
-    "version": "1.10.187-fabric",
-    "file": "spark-1.10.187-fabric.jar",
-    "url": "https://cdn.modrinth.com/data/l6YH9Als/versions/e3hsPc1o/spark-1.10.187-fabric.jar",
-    "size": 3838499,
-    "date": "2026-09-19",
-    "sha512": "c74bf5d5a16b2445ec6ea717eac756412b272a8015e91f91a7bf5a27e6f2f99c4a11878d434510f941f37b0344b3a7d1ba0dd6c34e80642762c48fb6e9a93894",
-    "ok": true
-  },
-  {
     "slug": "crashexploitfixer",
     "version": "fabric-2.0.0+26.3",
     "file": "crashexploitfixer-fabric-2.0.0+26.3.jar",
@@ -624,5 +614,82 @@
     "date": "2026-10-23",
     "sha512": "f721df7a868d3fe87c3121329b9aa1f3dd7a9b90b79443c43ba5e007962437dbc0661e9dff366b1c0e1e75a85e2652aaef56061d073020b707dd7f8f2dc26bc7",
     "ok": true
+  },
+  {
+    "slug": "lithostitched",
+    "version": "2.0.6-fabric-26.3",
+    "file": "lithostitched-2.0.6-fabric-26.3.jar",
+    "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/pZgI6b2t/lithostitched-2.0.6-fabric-26.3.jar",
+    "size": 997092,
+    "date": "2026-10-13",
+    "sha512": "d7ffe9bb3ea653ae70317f8621c546e3331369c0dd3cd6cadb374cc71283ca1fae1e7de7d2d16eb5724e96f7159c8b043e15a618f32dad88c8e70a7d8d1db4ee",
+    "ok": true,
+    "why": "required lib for Terralith worldgen"
+  },
+  {
+    "slug": "terralith",
+    "version": "2.6.5+26.3",
+    "file": "Terralith_26.3_v2.6.5+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/8oi3bsk5/versions/aGE3hYAA/Terralith_26.3_v2.6.5%2B26.3.jar",
+    "size": 2954218,
+    "date": "2026-09-27",
+    "sha512": "918b232df7a855bae89c7fa85affb5ce134e236c4726fa14a5bdaa179eb1e010f040a9fa981f006a0e26e421a2a961bc29a75e99a4500fd18361a8ba81478071",
+    "ok": true,
+    "why": "overhauled overworld biomes, Stardust Labs"
+  },
+  {
+    "slug": "incendium",
+    "version": "5.5.4+26.3",
+    "file": "Incendium_26.3_v5.5.4+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/ZVzW5oNS/versions/D4vWUd23/Incendium_26.3_v5.5.4%2B26.3.jar",
+    "size": 4087185,
+    "date": "2026-10-12",
+    "sha512": "9be3c614a6abd0d4b71c885cf7823cf4dc6252b006b4a1645a5f8319017275634b9baa22413fcb5f1664eb26a973c73b0439ca6d24669e34ae37965313fbd574",
+    "ok": true,
+    "why": "nether overhaul, alpha 26.3"
+  },
+  {
+    "slug": "structory",
+    "version": "1.3.18+26.3",
+    "file": "Structory_26.3_v1.3.18+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/aKCwCJlY/versions/GjOkOVW4/Structory_26.3_v1.3.18%2B26.3.jar",
+    "size": 1261901,
+    "date": "2026-09-24",
+    "sha512": "a9b7c7ce45a38c4be68563337e413adbf486a8e47fecc450d3ee59dadf807faee39d49a098c2dbfc2a466f0d36c71ca8e051f161efdbfc19b069f0c70e6b4223",
+    "ok": true,
+    "why": "lore structures in new chunks"
+  },
+  {
+    "slug": "structory-towers",
+    "version": "1.0.19+26.3",
+    "file": "Structory_Towers_26.3_v1.0.19+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/j3FONRYr/versions/5ntmnN83/Structory_Towers_26.3_v1.0.19%2B26.3.jar",
+    "size": 483525,
+    "date": "2026-09-24",
+    "sha512": "d3e3ddeb9a4f93e1b30ebfe0756ddcc2aa87cea24568104df90fc65274dcc5eba19255a0385b7d90e201191ae4105368d7bd77307a50bfd73cd356f0f8b5e15a",
+    "ok": true,
+    "why": "biome towers, Structory addon"
+  },
+  {
+    "slug": "nullscape",
+    "version": "2.0.1+26.3",
+    "file": "Nullscape_26.3_v2.0.1+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/LPjGiSO4/versions/79OyFQtd/Nullscape_26.3_v2.0.1%2B26.3.jar",
+    "size": 259205,
+    "date": "2026-09-28",
+    "sha512": "ae84946fd6a62ea0863cbc9fd2766ad08635a856d2e15af861af7d00807c98e606d1a2a06eb176ea6275031b66b6a186b245c7a4097797d3c12244ca9a4fe968",
+    "ok": true,
+    "why": "end overhaul"
+  },
+  {
+    "slug": "remove-terralith-intro-message",
+    "version": "1.2.2",
+    "file": "zRemove_SDL_Intro_v1.2.2.jar",
+    "url": "https://cdn.modrinth.com/data/sk4iFZGy/versions/BHr8OLOk/zRemove_SDL_Intro_v1.2.2.jar",
+    "size": 12238,
+    "date": "2026-03-29",
+    "sha512": "2a5b1f3a074d567c6134b918cd711ad64015cf3db0c1dfaf083f66af56004ae2ecda80e63593e1c20dae99f7237b718efde851e1e85f6e1ba604ba87469f60ff",
+    "ok": true,
+    "why": "silence Stardust Labs intro spam"
   }
 ]

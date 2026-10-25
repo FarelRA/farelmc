@@ -15,6 +15,5 @@ config/Geyser-Fabric/cache/
 config/Geyser-Fabric/saved-refresh-tokens.json
 config/Geyser-Fabric/nethernet/
 config/Geyser-Fabric/certs/
-config/spark/tmp/
 # local env
 .env
