@@ -6,4 +6,4 @@ Welcome to FarelMC! This is Farel's cozy survival hangout for friends. A few sim
 * Respect claims and bases. When in doubt, just ask!
 * Use /tpa to visit friends instead of wandering into their base uninvited.
 
-Need a hand? Try /help for all the commands, or ask Farel. Have fun and happy crafting!
+Need a hand? Try /help for all the commands, or ask Farel. First join needs /register, then /login after. Have fun and happy crafting!

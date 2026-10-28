@@ -10,6 +10,10 @@ mods/*.jar
 !mods/manifest.json
 # generated server dirs
 bluemap/
+# EasyAuth login database (SQLite). Persisted live via entrypoint link to /data;
+# runtime copy stays out of git, configs stay in.
+EasyAuth/easyauth.db
+config/EasyAuth/backup/
 # server-run state (rebuilt at boot)
 config/Geyser-Fabric/cache/
 config/Geyser-Fabric/saved-refresh-tokens.json

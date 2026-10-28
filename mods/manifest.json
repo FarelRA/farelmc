@@ -713,5 +713,16 @@
     "sha512": "6774391b873d0241538be29cf7f8299ebfaf2d9f03292b28103dff41fced203dc69e64032ca9b99e3b5364de2169f654a6633a255465adc994db17ac0a4c33d8",
     "ok": true,
     "why": "villages outposts ships, 18.9M dl server-side"
+  },
+  {
+    "slug": "easyauth",
+    "version": "3.4.4",
+    "file": "easyauth-mc26.3-3.4.4.jar",
+    "url": "https://cdn.modrinth.com/data/aZj58GfX/versions/Qd0CWVQP/easyauth-mc26.3-3.4.4.jar",
+    "size": 24257433,
+    "date": "2026-09-19",
+    "sha512": "849a3be86dbde46427b10053f474bd53b2ae6f7d69af3221b3cf73884876acf7fa5c7cde1089c86e16dbf0ff1b0dc8d5bcb96efbc71968bb01ed9fa50830beab",
+    "ok": true,
+    "why": "auth for open server, premium plus Floodgate auto-login, cracked register"
   }
 ]

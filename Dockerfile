@@ -1,5 +1,5 @@
 # FarelMC runs Fabric 26.3 SMP with universal join for Java and Bedrock.
-# Image bakes the 69 pinned mod jars; per-mod configs mount at runtime
+# Image bakes the 70 pinned mod jars; per-mod configs mount at runtime
 # (nodus-infra) or live in ./config (bare-metal dev).
 # The container runs as root. Under rootless podman that maps to the unprivileged
 # host user, so bind-mounted config/data stay writable (VMP/FerriteCore/

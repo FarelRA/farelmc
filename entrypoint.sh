@@ -5,7 +5,7 @@ set -eu
 
 mkdir -p /server/mods /data
 
-# Seed the 69 pinned jars (first boot copies; later boots: -n keeps existing).
+# Seed the 70 pinned jars (first boot copies; later boots: -n keeps existing).
 # Fresh mod versions land via a rebuilt image (CI) + recreated container.
 if [ -d /pinned-mods ]; then
   cp -n /pinned-mods/*.jar /server/mods/ 2>/dev/null || true
@@ -13,8 +13,9 @@ fi
 
 # Runtime state shipped alongside the image (nodus data/ layout):
 #   /server/nethernet-data -> Geyser NetherNet identity.pem (persistent volume)
+#   /server/EasyAuth -> EasyAuth login SQLite database (persistent volume)
 # Each jar expects its state under its own config dir, so link it once per boot.
-for spec in "nethernet-data:config/Geyser-Fabric/nethernet"; do
+for spec in "nethernet-data:config/Geyser-Fabric/nethernet" "minecraft-easyauth:EasyAuth"; do
   sdir="/server/${spec%%:*}"; dlink="/server/${spec##*:}"
   if [ -e "$sdir" ]; then
     if [ ! -L "$dlink" ] || [ "$(readlink "$dlink")" != "$sdir" ]; then rm -rf "$dlink"; ln -sfn "$sdir" "$dlink"; fi
