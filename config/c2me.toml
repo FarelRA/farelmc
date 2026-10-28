@@ -99,7 +99,8 @@ globalExecutorParallelism = "default"
 	# ================================================================
 	# (Default: 3) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
-	maxConcurrentChunkLoads = 4
+	# FarelMC: 2 on the 2-vCPU box so chunk send never starves the tick loop.
+	maxConcurrentChunkLoads = 2
 	# ================================================================
 	# (Default: true) Enable server-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 	# This allows requesting render distances higher than 127 chunks from the server
