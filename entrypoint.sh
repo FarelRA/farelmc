@@ -13,14 +13,19 @@ fi
 
 # Runtime state shipped alongside the image (nodus data/ layout):
 #   /server/nethernet-data -> Geyser NetherNet identity.pem (persistent volume)
-#   /server/EasyAuth -> EasyAuth login SQLite database (persistent volume)
 # Each jar expects its state under its own config dir, so link it once per boot.
-for spec in "nethernet-data:config/Geyser-Fabric/nethernet" "minecraft-easyauth:EasyAuth"; do
+for spec in "nethernet-data:config/Geyser-Fabric/nethernet"; do
   sdir="/server/${spec%%:*}"; dlink="/server/${spec##*:}"
   if [ -e "$sdir" ]; then
     if [ ! -L "$dlink" ] || [ "$(readlink "$dlink")" != "$sdir" ]; then rm -rf "$dlink"; ln -sfn "$sdir" "$dlink"; fi
   fi
 done
+
+# EasyAuth login database must survive rebuilds. Game dir is /server, sqlite
+# path is EasyAuth/easyauth.db, so link /server/EasyAuth to the /data volume
+# (same pattern as world). Configs stay in /server/config/EasyAuth (bind mount).
+if [ -L "/server/EasyAuth" ] && [ ! -e "/server/EasyAuth" ]; then rm "/server/EasyAuth"; fi
+if [ ! -e "/server/EasyAuth" ]; then mkdir -p "/data/EasyAuth" && ln -sfn "/data/EasyAuth" "/server/EasyAuth"; fi
 
 # World + player files live in /data (persistent volume, survives rebuilds).
 for d in world world_nether world_the_end; do
