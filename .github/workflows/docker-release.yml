@@ -20,6 +20,12 @@ jobs:
       - name: Fetch pinned mod jars for the image
         run: ./scripts/download-mods.sh
 
+      - name: Guard EasyAuth Vanish dependency
+        run: |
+          grep -q '^vanish-until-auth=true' config/EasyAuth/main.conf
+          python3 -c "import json; man=json.load(open('mods/manifest.json')); assert any(m['slug']=='vanish' for m in man), 'Vanish missing from manifest while vanish-until-auth=true'"
+          ls mods/*vanish*.jar
+
       - uses: docker/setup-qemu-action@v3
       - uses: docker/setup-buildx-action@v4
 

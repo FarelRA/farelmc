@@ -9,7 +9,7 @@
   ],
   "list_footer": [
     "",
-    "<gray>TPS <green>%server:tps_colored% <dark_gray>|</dark_gray> <gray>your ping <green>%player:ping%ms <dark_gray>|</dark_gray> <gray>kills <green>%player:statistic mob_kills%",
+    "<gray>TPS <green>%server:tps_colored% <dark_gray>|</dark_gray> <gray>your ping <green>%player:ping%ms <dark_gray>|</dark_gray> <gray>mob kills <green>%player:statistic mob_kills%",
     "<gray>health <red>%player:health% <dark_gray>|</dark_gray> <gray>world time <yellow>%world:time% <dark_gray>|</dark_gray> <gray>world <yellow>%world:name%",
     "<gray>join at <green>mc.farel.is-a.dev <gray>or type <green>/rules"
   ],

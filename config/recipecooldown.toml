@@ -4,4 +4,4 @@ enabled = true
 # The minimum cooldown required in millisecond for crafting recipe.
 # range: 1 - 10000
 # default: 50
-cooldownMs = 150
+cooldownMs = 75

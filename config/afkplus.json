@@ -72,7 +72,7 @@
     "whenReturnDurationPrefix": " <gray>(Gone for: <green>",
     "whenReturnDurationSuffix": "<gray>)",
     "defaultReason": "<gray>poof!<r>",
-    "afkCooldownGreeting": "<yellow>Welcome back, <r>%player:display_name%<r>, <yellow>did you miss anything fun?",
+    "afkCooldownGreeting": "<yellow>Welcome back, <r>%player:displayname%<r>, <yellow>did you miss anything fun?",
     "whileYourVanished": "<red>You are vanished, and probably shouldn't be doing that.<r>",
     "whileVanished": "<red> is vanished, and probably shouldn't be doing that.<r>",
     "displayDuration": true,

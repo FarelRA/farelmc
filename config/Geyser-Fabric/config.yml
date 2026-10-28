@@ -296,6 +296,7 @@ advanced:
     # Traefik terminates signaling TLS (nodus-infra) and reverse-proxies plain
     # HTTP here. The router subnet must stay trusted or every Bedrock player
     # looks like one address (connection-limit + wrong IPs).
+    # Source: nodus-infra services/docker-compose.yml traefik trustedIPs must include this subnet.
     signaling-trusted-proxies:
       - 10.89.0.0/24
 
