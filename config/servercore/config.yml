@@ -71,11 +71,8 @@ dynamic:
       increment: 10
       interval: 15
 
-    - setting: 'VIEW_DISTANCE'
-      max: 12
-      min: 6
-      increment: 1
-      interval: 150
+    # VIEW_DISTANCE intentionally removed: server.properties view-distance=32
+    # is the single source of truth. ServerCore was capping it back to 12.
 
 
 # A special mobcap that only affects the breeding of animals and villagers.
