@@ -21,6 +21,12 @@ for spec in "nethernet-data:config/Geyser-Fabric/nethernet"; do
   fi
 done
 
+# BlueMap runtime (client jar, resources, rendered tiles) persists like world.
+# Otherwise every boot re-downloads the client jar and re-renders from zero,
+# spiking CPU and IO exactly when Geyser builds its registries.
+if [ -L "/server/bluemap" ] && [ ! -e "/server/bluemap" ]; then rm "/server/bluemap"; fi
+if [ ! -e "/server/bluemap" ]; then mkdir -p "/data/bluemap" && ln -sfn "/data/bluemap" "/server/bluemap"; fi
+
 # EasyAuth login database must survive rebuilds. Game dir is /server, sqlite
 # path is EasyAuth/easyauth.db, so link /server/EasyAuth to the /data volume
 # (same pattern as world). Configs stay in /server/config/EasyAuth (bind mount).
