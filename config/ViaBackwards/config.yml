@@ -47,7 +47,7 @@ map-custom-model-data: true
 map-display-entities: true
 #
 # Suppresses warnings of missing emulations for certain features that are not supported (e.g. world height in 1.17+).
-suppress-emulation-warnings: false
+suppress-emulation-warnings: true
 #
 # If enabled, dialogs will be shown via chest inventories for 1.21.5 clients on 1.21.6+ servers.
 dialogs-via-chests: true

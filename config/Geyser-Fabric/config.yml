@@ -185,10 +185,10 @@ gameplay:
   # The maximum number of custom skulls to be displayed per player. Increasing this may decrease performance on weaker devices.
   # A value of 0 will disable all custom skulls.
   # Setting this to -1 will cause all custom skulls to be displayed regardless of distance or number.
-  max-visible-custom-skulls: 128
+  max-visible-custom-skulls: 64
 
   # The radius in blocks around the player in which custom skulls are displayed.
-  custom-skull-render-distance: 32
+  custom-skull-render-distance: 16
 
 # The default locale if we don't have the one the client requested. If set to "system", the system's language will be used.
 default-locale: system
@@ -220,17 +220,17 @@ notify-on-new-bedrock-update: true
 advanced:
   # Specify how many days player skin images will be cached to disk to save downloading them from the internet.
   # A value of 0 is disabled. (Default: 0)
-  cache-images: 0
+  cache-images: 7
 
   # Geyser updates the Scoreboard after every Scoreboard packet, but when Geyser tries to handle
   # a lot of scoreboard packets per second, this can cause serious lag.
   # This option allows you to specify after how many Scoreboard packets per seconds
   # the Scoreboard updates will be limited to four updates per second.
-  scoreboard-packet-threshold: 20
+  scoreboard-packet-threshold: 10
 
   # Whether Geyser should send team names in command suggestions.
   # Disable this if you have a lot of teams used that you don't need as suggestions.
-  add-team-suggestions: true
+  add-team-suggestions: false
 
   # A list of remote resource pack urls to send to the Bedrock client for downloading.
   # The Bedrock client is very picky about how these are delivered. Please see our wiki page for further info at https://geysermc.org/wiki/geyser/packs/
@@ -272,7 +272,7 @@ advanced:
 
     # How much to compress network traffic to the Bedrock client. The higher the number, the more CPU usage used, but
     # the smaller the bandwidth used. Does not have any effect below -1 or above 9. Set to -1 to disable.
-    compression-level: 6
+    compression-level: 4
 
     # Whether to expect HAPROXY protocol for connecting Bedrock clients.
     # This is useful only when you are running a reverse proxy in front of your Geyser instance.

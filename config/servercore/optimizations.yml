@@ -1,5 +1,5 @@
 cache-ticking-chunks: true
-cancel-duplicate-fluid-ticks: false
-fast-biome-lookups: false
-optimize-command-blocks: false
+cancel-duplicate-fluid-ticks: true
+fast-biome-lookups: true
+optimize-command-blocks: true
 reduce-sync-loads: true

@@ -27,7 +27,7 @@ features:
     # Makes villagers tick less often if they are stuck in a 1x1 space.
     enabled: true
     # Decides the interval in between villager ticks when lobotomized.
-    tick-interval: 100
+    tick-interval: 40
 
 
 # Automatically modifies dynamic settings based on the server performance.
@@ -37,7 +37,7 @@ dynamic:
   # climbs, restores when load clears. Ceilings match server.properties.
   enabled: true
   # The average MSPT to target.
-  target-mspt: 45
+  target-mspt: 40
   # The default values for dynamic settings.
   # If left unspecified, the maximum value will be used.
   # Note: adding view / simulation distance here will override their value in server.properties.
@@ -55,7 +55,7 @@ dynamic:
   dynamic-settings:
     - setting: 'CHUNK_TICK_DISTANCE'
       max: 12
-      min: 6
+      min: 4
       increment: 1
       interval: 15
 
@@ -63,12 +63,6 @@ dynamic:
       max: 100
       min: 50
       increment: 10
-      interval: 15
-
-    - setting: 'CHUNK_TICK_DISTANCE'
-      max: 12
-      min: 4
-      increment: 1
       interval: 15
 
     - setting: 'MOBCAP_PERCENTAGE'

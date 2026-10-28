@@ -99,7 +99,7 @@ globalExecutorParallelism = "default"
 	# ================================================================
 	# (Default: 3) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
-	maxConcurrentChunkLoads = "default"
+	maxConcurrentChunkLoads = 4
 	# ================================================================
 	# (Default: true) Enable server-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 	# This allows requesting render distances higher than 127 chunks from the server
@@ -117,7 +117,7 @@ globalExecutorParallelism = "default"
 	# 
 	# Defaults to 200, which is 200%
 	# 
-	chunkSendingSpeedMultiplierPercentage = "default"
+	chunkSendingSpeedMultiplierPercentage = 300
 
 [vanillaWorldGenOptimizations]
 	# ================================================================

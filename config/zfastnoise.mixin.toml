@@ -19,7 +19,7 @@
 		# defaultValue: false
 		# incompatibleWith: biolith
 		#
-		tree = false
+		tree = true
 		#Optimize end biome generation (2x speed) but may cause mod incompatibility
 		# defaultValue: true
 		# incompatibleWith: biolith

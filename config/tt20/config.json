@@ -1,7 +1,7 @@
 {
-  "random-tickspeed-acceleration": false,
+  "random-tickspeed-acceleration": true,
   "enabled": true,
-  "block-entity-acceleration": false,
+  "block-entity-acceleration": true,
   "block-breaking-acceleration": true,
   "potion-effect-acceleration": true,
   "fluid-acceleration": true,
@@ -14,7 +14,7 @@
   "bow-acceleration": true,
   "crossbow-acceleration": true,
   "mob-timer-acceleration": true,
-  "tnt-acceleration": false,
+  "tnt-acceleration": true,
   "vanilla-lagback": true,
   "automatic-updater": false
 }

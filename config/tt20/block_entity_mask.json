@@ -1,6 +1,8 @@
 {
   "type": "whitelist",
   "blocks": [
-    "*:*"
+    "minecraft:hopper",
+    "minecraft:furnace",
+    "minecraft:mob_spawner"
   ]
 }
