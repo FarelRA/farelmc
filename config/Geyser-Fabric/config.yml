@@ -15,7 +15,8 @@
 bedrock:
   # The IP address that Geyser will bind on to listen for incoming Bedrock connections.
   # Generally, you should only change this if you want to limit what IPs can connect to your server.
-  address: 0.0.0.0
+  # FarelMC: :: for dual stack v4 plus v6, 0.0.0.0 was v4 only and broke v6 RakNet from radix.
+  address: '::'
 
   # The port that Geyser will listen on for incoming Bedrock connections.
   # Built-in signaling uses this port over TCP (and UDP if "webrtc-port" is not set), and RakNet uses it over UDP.
