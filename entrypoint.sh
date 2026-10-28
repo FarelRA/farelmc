@@ -59,6 +59,9 @@ if [ -n "${MGMT_SECRET:-}" ]; then
 fi
 
 HEAP="${HEAP_GB:-4}G"
+# Note: no AlwaysPreTouch on purpose. It faults the full heap at startup,
+# which OOM-killed the JVM twice on this 12 GB box (dmesg 18:32 and 18:50).
+# ZGC commits on demand and does not need pre-touch (Oracle ZGC tuning guide).
 exec java -Xms"$HEAP" -Xmx"$HEAP" \
-  -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+PerfDisableSharedMem -XX:+UseDynamicNumberOfGCThreads \
+  -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -XX:+DisableExplicitGC -XX:+PerfDisableSharedMem -XX:+UseDynamicNumberOfGCThreads \
   -jar /server/fabric-server-launch.jar nogui
