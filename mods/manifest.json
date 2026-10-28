@@ -557,12 +557,12 @@
   },
   {
     "slug": "viabackwards",
-    "version": "5.12.2-SNAPSHOT+662",
-    "file": "ViaBackwards-5.12.2-SNAPSHOT.jar",
-    "url": "https://cdn.modrinth.com/data/NpvuJQoq/versions/wvN2z9sR/ViaBackwards-5.12.2-SNAPSHOT.jar",
-    "size": 1439004,
-    "date": "2026-10-21",
-    "sha512": "a2bacf634b4bc04f62f3c86c8f82e8c524714e4e2c3ce358fefa2a8f4b22f2aef1bbdd60e408ae310e1ad06efd0f902c6cd4abfce23bc1562d830a29aa5fb885",
+    "version": "5.12.2",
+    "file": "ViaBackwards-5.12.2.jar",
+    "url": "https://cdn.modrinth.com/data/NpvuJQoq/versions/1xHfYAKG/ViaBackwards-5.12.2.jar",
+    "size": 1439641,
+    "date": "2026-10-27",
+    "sha512": "78bc7e5fd33ecf13aee31c62e1de46a854e066a1936f294347c6798371357497fe2cc6f23f1d42003ad3050f94ac5382db95e60ffa90d765fada0322b59b0ef9",
     "ok": true
   },
   {
@@ -587,12 +587,12 @@
   },
   {
     "slug": "geyser",
-    "version": "2.12.0-b1270",
-    "file": "Geyser-Fabric-2.12.0-b1270.jar",
-    "url": "https://cdn.modrinth.com/data/wKkoqHrH/versions/Vx9RY5fp/Geyser-Fabric-2.12.0-b1270.jar",
-    "size": 45060776,
-    "date": "2026-10-23",
-    "sha512": "a0c05daff4ac64ca1dc1808704deefb24c95e9e647369c4135aaac654972992605835b34cfa69f4d9c7836d6f5d70188bd77ff2e42541cac9b62a906d6fba338",
+    "version": "2.12.1-b1275",
+    "file": "Geyser-Fabric-2.12.1-b1275.jar",
+    "url": "https://cdn.modrinth.com/data/wKkoqHrH/versions/ifebveTd/Geyser-Fabric-2.12.1-b1275.jar",
+    "size": 45298016,
+    "date": "2026-10-27",
+    "sha512": "12b3fb2b9af304e1e993d84198ad02b0226a9eaea2660d32eb3051419b1cfcd9139832caa71b92778e2e98c117b534a3973f6257c3031c2d112a63bee86672fd",
     "ok": true
   },
   {
@@ -607,12 +607,12 @@
   },
   {
     "slug": "viaversion",
-    "version": "5.12.2-SNAPSHOT+1109",
-    "file": "ViaVersion-5.12.2-SNAPSHOT.jar",
-    "url": "https://cdn.modrinth.com/data/P1OZGk5p/versions/eavgfe2D/ViaVersion-5.12.2-SNAPSHOT.jar",
-    "size": 6501775,
-    "date": "2026-10-23",
-    "sha512": "f721df7a868d3fe87c3121329b9aa1f3dd7a9b90b79443c43ba5e007962437dbc0661e9dff366b1c0e1e75a85e2652aaef56061d073020b707dd7f8f2dc26bc7",
+    "version": "5.12.2",
+    "file": "ViaVersion-5.12.2.jar",
+    "url": "https://cdn.modrinth.com/data/P1OZGk5p/versions/cVhZ1kgN/ViaVersion-5.12.2.jar",
+    "size": 6508809,
+    "date": "2026-10-27",
+    "sha512": "c6af11f50e14bc1ba239f5a90be653cce85feee30c473a4b53336b4d5527d790369cf43843f7cb06d3ac3a34fc207e7203436737ca719070644101472453401b",
     "ok": true
   },
   {
@@ -705,12 +705,12 @@
   },
   {
     "slug": "towns-and-towers",
-    "version": "1.13.12",
-    "file": "t_and_t-fabric-neoforge-1.13.12.jar",
-    "url": "https://cdn.modrinth.com/data/DjLobEOy/versions/yajFnGZS/t_and_t-fabric-neoforge-1.13.12.jar",
-    "size": 3195626,
-    "date": "2026-09-16",
-    "sha512": "6774391b873d0241538be29cf7f8299ebfaf2d9f03292b28103dff41fced203dc69e64032ca9b99e3b5364de2169f654a6633a255465adc994db17ac0a4c33d8",
+    "version": "1.13.13",
+    "file": "t_and_t-fabric-neoforge-1.13.13.jar",
+    "url": "https://cdn.modrinth.com/data/DjLobEOy/versions/vHZIKy6e/t_and_t-fabric-neoforge-1.13.13.jar",
+    "size": 3194933,
+    "date": "2026-10-27",
+    "sha512": "bd0469d23a80d1bbbb0a3696b3c1a62f90cc5ad16e4cc58fe9e0e08e7453c3015ff7619b1d429106a034279b46fe909a0962b6dc9e970920f717fc518d9e292d",
     "ok": true,
     "why": "villages outposts ships, 18.9M dl server-side"
   },
@@ -724,5 +724,16 @@
     "sha512": "849a3be86dbde46427b10053f474bd53b2ae6f7d69af3221b3cf73884876acf7fa5c7cde1089c86e16dbf0ff1b0dc8d5bcb96efbc71968bb01ed9fa50830beab",
     "ok": true,
     "why": "auth for open server, premium plus Floodgate auto-login, cracked register"
+  },
+  {
+    "slug": "vanish",
+    "version": "1.6.16+26.3",
+    "file": "vanish-1.6.16+26.3.jar",
+    "url": "https://cdn.modrinth.com/data/UL4bJFDY/versions/KgeCcJWw/vanish-1.6.16%2B26.3.jar",
+    "size": 1256413,
+    "date": "2026-09-27",
+    "sha512": "ee60a0ca4551a99929b9e2c6b9b13206b8246d9a35289790acc637e36174b35fe615acb470845ab9ac5a3e283051e2e00cf56b24af124d10414aa6e8db8917e3",
+    "ok": true,
+    "why": "vanish api for easyauth hide unauthenticated"
   }
 ]
