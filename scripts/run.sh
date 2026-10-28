@@ -10,5 +10,5 @@ fi
 HEAP="${HEAP_GB:-4}G"
 exec "$JAVA_BIN" \
   -Xms"$HEAP" -Xmx"$HEAP" \
-  -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -XX:+GenerationalZGC -XX:+DisableExplicitGC -XX:+PerfDisableSharedMem -XX:+UseDynamicNumberOfGCThreads \
+  -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+PerfDisableSharedMem -XX:+UseDynamicNumberOfGCThreads \
   -jar fabric-server-launch.jar nogui

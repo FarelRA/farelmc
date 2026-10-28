@@ -60,5 +60,5 @@ fi
 
 HEAP="${HEAP_GB:-4}G"
 exec java -Xms"$HEAP" -Xmx"$HEAP" \
-  -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -XX:+GenerationalZGC -XX:+DisableExplicitGC -XX:+PerfDisableSharedMem -XX:+UseDynamicNumberOfGCThreads \
+  -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+PerfDisableSharedMem -XX:+UseDynamicNumberOfGCThreads \
   -jar /server/fabric-server-launch.jar nogui
