@@ -8,7 +8,9 @@
   "_c3": "Type of resource pack provider. Default: 'polymer:automatic'",
   "type": "polymer:automatic",
   "_c4": "Configuration of type, see provider's source for more details",
-  "settings": {},
+  "settings": {
+    "forced_address": ""
+  },
   "_c5": "Message sent to clients before pack is loaded",
   "message": "This server uses resource pack to enhance gameplay with custom textures and models. It might be unplayable without them.",
   "_c6": "Disconnect message in case of failure",
@@ -40,5 +42,7 @@
   "_c16": "Value of Cache-Control max age header",
   "cache_control_max_age": 31536000,
   "_c19": "Delays server from showing as online on player list until resource pack is generated.",
-  "delay_player_list_motd_until_generated": false
+  "delay_player_list_motd_until_generated": false,
+  "_c21": "Allows joining the server even if resource pack failed to generate.",
+  "allow_joining_after_generation_failure": true
 }
