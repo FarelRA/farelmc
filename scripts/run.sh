@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Start the Fabric server (Aikar G1GC flags). Single locked stack: mods/ is the modpack.
+# Start the Fabric server (ZGC flags). Single locked stack: mods/ is the modpack.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 set -a; source scripts/fabric.env; set +a
