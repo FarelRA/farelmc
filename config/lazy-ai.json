@@ -6,7 +6,7 @@
   "_comment_EnableVanillaMobTicking": "This setting controls if distant mobs should tick the same as in a unmodded (vanilla) game. Enabling this reduces the mod\u0027s TPS-boosting effect on your game, but can fix mob ticking issues.",
   "DistanceScaling": "Medium",
   "AIOptimizationType": "Dynamic",
-  "TemptDelay": "Medium",
+  "TemptDelay": "Low",
   "DisableZombieEggStomping": false,
   "EnableVanillaMobTicking": false
 }

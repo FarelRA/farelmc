@@ -2,7 +2,7 @@
 // This file uses JSON5 syntax (https://json5.org/)
 {
   // Toggles the empty NBT bug fix on or off.
-  "enableNbtFix": false,
+  "enableNbtFix": true,
 
   // Items in this list will not be modified by Almanac.
   // Supports wildcard '*'. For example:
